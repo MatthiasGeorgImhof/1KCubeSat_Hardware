@@ -4424,6 +4424,16 @@
 	)
 	(wire
 		(pts
+			(xy 259.08 186.69) (xy 241.3 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58582a59-faa2-4805-b7b6-ffa37e546f02")
+	)
+	(wire
+		(pts
 			(xy 62.865 224.79) (xy 57.15 224.79)
 		)
 		(stroke
@@ -6959,7 +6969,7 @@
 	)
 	(hierarchical_label "SOLAR_INT_EXTI11"
 		(shape input)
-		(at 241.3 186.69 0)
+		(at 259.08 186.69 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7196,6 +7206,18 @@
 			(justify right)
 		)
 		(uuid "78b3b64f-9de3-4700-a656-df797ed88812")
+	)
+	(hierarchical_label "3.3V_STM_CORE"
+		(shape input)
+		(at 259.08 179.07 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7cf426bf-b27a-4ef3-9087-e3ebcb8f996a")
 	)
 	(hierarchical_label "GPS_PPS_EXTI9"
 		(shape input)
@@ -11046,6 +11068,103 @@
 			(project "AVIONICS_BOARD"
 				(path "/f6cc00ab-17f1-4973-862f-7ac95fe70668/00000000-0000-0000-0000-00005ea31c93"
 					(reference "#FLG011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 259.08 182.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5c48dfc1-be9e-49d6-8419-f384bff9469c")
+		(property "Reference" "R41"
+			(at 261.62 181.6099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100K"
+			(at 261.62 184.1499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+			(at 257.302 182.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
+			(at 259.08 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 259.08 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 259.08 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "RC0402FR-07100KL"
+			(at 259.08 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "1"
+			(at 259.08 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9a4c79a0-e1f7-4991-b0e2-c07e194af2cc")
+		)
+		(pin "2"
+			(uuid "cb4ff7c6-5c2a-496b-88bf-4801f0d9d3d7")
+		)
+		(instances
+			(project "AVIONICS_BOARD"
+				(path "/f6cc00ab-17f1-4973-862f-7ac95fe70668/00000000-0000-0000-0000-00005ea31c93"
+					(reference "R41")
 					(unit 1)
 				)
 			)
