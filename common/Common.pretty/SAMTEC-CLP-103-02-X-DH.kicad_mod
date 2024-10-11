@@ -22,7 +22,7 @@
 		(effects
 			(font
 				(size 0.5 0.5)
-				(thickness 0.15)
+				(thickness 0.125)
 			)
 		)
 	)
@@ -1874,5 +1874,16 @@
 		(size 0.711 1.35)
 		(layers "F.Cu" "F.Paste")
 		(uuid "e8bcf527-671b-4e8a-b810-6bfd8635cdb1")
+	)
+	(model "/home/mgi/Data/kicad/3rdParty/rgw3d/1KCubeSat_Hardware/common/step3d/SAMTEC-CLP-103-02-X-DH.step"
+		(offset
+			(xyz 0 -1.5 1.75)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 -180 0)
+		)
 	)
 )

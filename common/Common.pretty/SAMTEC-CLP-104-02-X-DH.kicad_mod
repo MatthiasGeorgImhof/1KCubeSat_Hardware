@@ -22,7 +22,7 @@
 		(effects
 			(font
 				(size 0.5 0.5)
-				(thickness 0.15)
+				(thickness 0.125)
 			)
 		)
 	)
@@ -198,6 +198,17 @@
 		)
 		(layer "F.SilkS")
 		(uuid "1fcf8667-f554-46ee-bdcc-d2ea40f259ab")
+	)
+	(fp_circle
+		(center -2.7 -1.97)
+		(end -2.55 -1.97)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "1d2dd50d-ef92-4465-8c13-0ed80f28b02b")
 	)
 	(fp_poly
 		(pts
@@ -1435,17 +1446,16 @@
 		(layer "Dwgs.User")
 		(uuid "d5ea4c8c-2afb-4f18-9d31-6921a1846d3a")
 	)
-	(fp_poly
-		(pts
-			(xy -3.441 3.355) (xy -3.441 -3.355) (xy 3.441 -3.355) (xy 3.441 3.355) (xy -3.441 3.355)
-		)
+	(fp_rect
+		(start -3.05 -2.98)
+		(end 3.06 3)
 		(stroke
-			(width 0)
-			(type solid)
+			(width 0.05)
+			(type default)
 		)
-		(fill solid)
+		(fill none)
 		(layer "F.CrtYd")
-		(uuid "11c4fa16-4761-43f3-ac0e-56e19ceaa83c")
+		(uuid "7d01a994-234c-4560-96ac-8b191116dd30")
 	)
 	(fp_line
 		(start -2.756 -1.524)
@@ -1867,50 +1877,6 @@
 		(layer "F.Fab")
 		(uuid "2919af84-079c-4de3-a455-b07412bbec2c")
 	)
-	(fp_text user "7"
-		(at 3.547 -1.359 0)
-		(layer "F.SilkS")
-		(uuid "5c6c424a-2040-4c94-aa26-b5be8f91c936")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(fp_text user "2"
-		(at -4.576 2.629 0)
-		(layer "F.SilkS")
-		(uuid "71a13e66-7694-4d06-85d4-18d4400a6ef9")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(fp_text user "8"
-		(at 3.547 2.629 0)
-		(layer "F.SilkS")
-		(uuid "7394ea66-b162-49f2-aa70-70810b616b0d")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(fp_text user "1"
-		(at -4.576 -1.359 0)
-		(layer "F.SilkS")
-		(uuid "e398d4f6-48dc-4b6c-b597-e5ecca5b76ff")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
 	(fp_text user "3.048"
 		(at -9.677 0.127 0)
 		(layer "Dwgs.User")
@@ -2057,5 +2023,16 @@
 		(size 0.711 1.35)
 		(layers "F.Cu" "F.Paste")
 		(uuid "67c7c1d2-dbf1-4a9b-ba8d-98e2c06df6ab")
+	)
+	(model "/home/mgi/Data/kicad/3rdParty/rgw3d/1KCubeSat_Hardware/common/step3d/SAMTEC-CLP-104-02-X-DH.step"
+		(offset
+			(xyz 0 -1.5 1.75)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 -180 0)
+		)
 	)
 )

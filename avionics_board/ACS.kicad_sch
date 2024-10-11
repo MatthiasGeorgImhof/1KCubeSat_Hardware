@@ -340,30 +340,6 @@
 		(color 0 0 0 0)
 		(uuid "ef7033f6-5821-442b-9d76-ee431f17a804")
 	)
-	(no_connect
-		(at 192.405 65.405)
-		(uuid "3a958c9b-448f-4e9f-9a24-1d7b74320df4")
-	)
-	(no_connect
-		(at 151.765 80.645)
-		(uuid "ae60ee81-6090-45d3-b568-0c6e110f4ced")
-	)
-	(no_connect
-		(at 164.465 65.405)
-		(uuid "affab4a3-fa29-49a5-a9c8-bb681cd41023")
-	)
-	(no_connect
-		(at 151.765 65.405)
-		(uuid "b373c3a3-9b82-4824-80c0-785054eab9ce")
-	)
-	(no_connect
-		(at 179.705 65.405)
-		(uuid "d2060c34-ca48-4e13-af16-cf8f81322c5f")
-	)
-	(no_connect
-		(at 164.465 80.645)
-		(uuid "d3f7da63-193c-4397-840a-ab09334e3d80")
-	)
 	(wire
 		(pts
 			(xy 98.425 158.115) (xy 97.155 158.115)
@@ -528,7 +504,7 @@
 		)
 		(uuid "13ea95c1-e2b2-4670-8375-7d6afbfd0f7e")
 	)
-	(label "Y_C"
+	(label "Y_N"
 		(at 164.465 78.105 0)
 		(fields_autoplaced yes)
 		(effects
@@ -539,8 +515,8 @@
 		)
 		(uuid "1b0204c2-5b7f-4598-9d64-be073ffb1104")
 	)
-	(label "Z_P"
-		(at 98.425 155.575 0)
+	(label "Y_N"
+		(at 192.405 80.645 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -548,18 +524,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "3475336e-b542-431d-a6f3-e71c6abb1579")
-	)
-	(label "Z_N"
-		(at 98.425 158.115 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "379f80f0-9a52-4d00-9f1f-8d680fe26d1b")
+		(uuid "3700f868-537d-4919-824b-ea9c272f7972")
 	)
 	(label "Y_P"
 		(at 98.425 112.395 0)
@@ -583,18 +548,7 @@
 		)
 		(uuid "4fd74bdb-e4b0-4b47-8ef8-983fdf31d8cb")
 	)
-	(label "Z_N"
-		(at 192.405 80.645 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "54b3276a-5ceb-444c-9c83-7b2064526b4c")
-	)
-	(label "X_C"
+	(label "X_P"
 		(at 179.705 62.865 180)
 		(fields_autoplaced yes)
 		(effects
@@ -605,7 +559,7 @@
 		)
 		(uuid "570ab5c6-7f71-4b99-8bb4-137049d99c61")
 	)
-	(label "Y_C"
+	(label "Y_P"
 		(at 179.705 78.105 180)
 		(fields_autoplaced yes)
 		(effects
@@ -627,6 +581,17 @@
 		)
 		(uuid "6139a8c1-93f6-49ec-926e-bafbf2567ab5")
 	)
+	(label "Y_P"
+		(at 179.705 80.645 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "79ed0fd2-ab65-45e5-b746-ade478f3ead2")
+	)
 	(label "Y_N"
 		(at 98.425 114.935 0)
 		(fields_autoplaced yes)
@@ -637,6 +602,28 @@
 			(justify left bottom)
 		)
 		(uuid "8a2facc7-37a4-4912-bf59-6ee4c631290e")
+	)
+	(label "Y_N"
+		(at 164.465 80.645 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8c59205c-63c9-4936-8878-7c8cc6d6a4f3")
+	)
+	(label "Y_P"
+		(at 151.765 80.645 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9039c328-0b1f-4d92-9664-41abbe6ed53d")
 	)
 	(label "Y_N"
 		(at 192.405 78.105 0)
@@ -671,6 +658,17 @@
 		)
 		(uuid "a5f79cca-921a-4753-8597-17bc90e7fb51")
 	)
+	(label "X_P"
+		(at 179.705 65.405 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a73659ad-eab7-408e-a8ee-0c5f9ab5a52d")
+	)
 	(label "*Z_INT"
 		(at 97.79 153.035 0)
 		(fields_autoplaced yes)
@@ -682,7 +680,7 @@
 		)
 		(uuid "b501d75b-07c6-4590-903f-b39f903cd2ee")
 	)
-	(label "X_C"
+	(label "X_N"
 		(at 164.465 62.865 0)
 		(fields_autoplaced yes)
 		(effects
@@ -693,16 +691,16 @@
 		)
 		(uuid "b85e3fe8-7cbd-4fb0-9e7d-e1d9f3c62d2b")
 	)
-	(label "Z_P"
-		(at 179.705 80.645 180)
+	(label "X_N"
+		(at 164.465 65.405 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
-		(uuid "c78ae939-c80d-4d01-93a1-d0f0536dbada")
+		(uuid "bd1d68a4-1090-4d66-ac55-8adb83125d39")
 	)
 	(label "X_P"
 		(at 151.765 62.865 180)
@@ -715,6 +713,17 @@
 		)
 		(uuid "d5e91903-dcc4-4e29-9896-9d589eb9aac6")
 	)
+	(label "X_N"
+		(at 192.405 65.405 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d9fd843c-11eb-453f-841d-20aca11ac7b4")
+	)
 	(label "*X_INT"
 		(at 97.79 67.31 0)
 		(fields_autoplaced yes)
@@ -725,6 +734,61 @@
 			(justify left bottom)
 		)
 		(uuid "db35a6db-88ef-4ed0-8591-96f250048d38")
+	)
+	(label "X_P"
+		(at 151.765 65.405 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "fd4d2aaa-ebdf-40ef-9207-9f234afe507b")
+	)
+	(global_label "Z_P"
+		(shape input)
+		(at 98.425 155.575 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "632a6f96-6571-4ee2-9108-105b9586d5d7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 104.8573 155.575 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Z_N"
+		(shape input)
+		(at 98.425 158.115 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e152a0b9-4acc-4f3a-83b3-53c53197cec9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 104.9178 158.115 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
 	(hierarchical_label "Z_nSLEEP"
 		(shape input)
@@ -1120,7 +1184,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "17d66e7e-c15c-4957-ac0b-85627c3ed303")
-		(property "Reference" "J8"
+		(property "Reference" "J3"
 			(at 158.115 72.39 0)
 			(effects
 				(font
@@ -1178,7 +1242,7 @@
 		(instances
 			(project "AVIONICS_BOARD"
 				(path "/f6cc00ab-17f1-4973-862f-7ac95fe70668/1f9ae17d-3f3e-4633-9b01-30c344473415"
-					(reference "J8")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -1194,7 +1258,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "630afd95-cd9e-4183-bfa3-8a048f7d9346")
-		(property "Reference" "R19"
+		(property "Reference" "R20"
 			(at 119.38 62.2299 0)
 			(effects
 				(font
@@ -1284,7 +1348,7 @@
 		(instances
 			(project "AVIONICS_BOARD"
 				(path "/f6cc00ab-17f1-4973-862f-7ac95fe70668/1f9ae17d-3f3e-4633-9b01-30c344473415"
-					(reference "R19")
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -1374,7 +1438,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bc09231b-3b8e-40a5-b0d9-e495e62c0c42")
-		(property "Reference" "J4"
+		(property "Reference" "J2"
 			(at 186.055 57.15 0)
 			(effects
 				(font
@@ -1432,7 +1496,7 @@
 		(instances
 			(project "AVIONICS_BOARD"
 				(path "/f6cc00ab-17f1-4973-862f-7ac95fe70668/1f9ae17d-3f3e-4633-9b01-30c344473415"
-					(reference "J4")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -1448,7 +1512,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d93726b1-13f0-49b3-8c8e-9ea4d155c6ac")
-		(property "Reference" "J15"
+		(property "Reference" "J4"
 			(at 186.055 72.39 0)
 			(effects
 				(font
@@ -1506,7 +1570,7 @@
 		(instances
 			(project "AVIONICS_BOARD"
 				(path "/f6cc00ab-17f1-4973-862f-7ac95fe70668/1f9ae17d-3f3e-4633-9b01-30c344473415"
-					(reference "J15")
+					(reference "J4")
 					(unit 1)
 				)
 			)

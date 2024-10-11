@@ -1885,7 +1885,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.775 95.885) (xy 104.775 113.665)
+			(xy 104.775 95.885) (xy 104.775 116.84)
 		)
 		(stroke
 			(width 0)
@@ -1975,7 +1975,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 116.205) (xy 121.92 116.205)
+			(xy 101.6 119.38) (xy 121.92 119.38)
 		)
 		(stroke
 			(width 0)
@@ -2025,7 +2025,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 98.425) (xy 101.6 116.205)
+			(xy 101.6 98.425) (xy 101.6 119.38)
 		)
 		(stroke
 			(width 0)
@@ -2255,7 +2255,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.775 113.665) (xy 121.92 113.665)
+			(xy 104.775 116.84) (xy 121.92 116.84)
 		)
 		(stroke
 			(width 0)
@@ -2527,6 +2527,94 @@
 		)
 		(uuid "f8fbbb5b-6bb5-4c10-8ad4-2203137d9d9a")
 	)
+	(global_label "Z_P"
+		(shape input)
+		(at 121.92 121.92 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1892aab3-cbf7-4036-b5a3-fc8a54d28b12")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 115.4877 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Z_N"
+		(shape input)
+		(at 121.92 109.22 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "319baede-1269-4793-b54b-2ddc666770f9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 115.4272 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Z_P"
+		(shape input)
+		(at 121.92 106.68 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8292daca-fc37-484c-b300-b335631a0724")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 115.4877 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Z_N"
+		(shape input)
+		(at 121.92 124.46 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ab5fbf3e-ab13-421f-8de8-00e51dfbce83")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 115.4272 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(hierarchical_label "*INT"
 		(shape input)
 		(at 136.525 94.615 0)
@@ -2625,7 +2713,7 @@
 	)
 	(hierarchical_label "GND"
 		(shape input)
-		(at 136.525 116.205 0)
+		(at 136.525 119.38 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2769,7 +2857,7 @@
 	)
 	(hierarchical_label "VIN"
 		(shape input)
-		(at 136.525 113.665 0)
+		(at 136.525 116.84 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2781,7 +2869,7 @@
 	)
 	(hierarchical_label "*INT"
 		(shape input)
-		(at 136.525 118.745 0)
+		(at 136.525 121.92 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3506,7 +3594,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "solar_sensor_tls.kicad_sch"
+		(property "Sheetfile" "solar_sensor_xy.kicad_sch"
 			(at 121.92 97.1046 0)
 			(effects
 				(font
@@ -3576,7 +3664,7 @@
 	)
 	(sheet
 		(at 121.92 100.33)
-		(size 14.605 8.255)
+		(size 14.605 10.795)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -3595,8 +3683,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "solar_sensor_tls.kicad_sch"
-			(at 121.92 109.1696 0)
+		(property "Sheetfile" "solar_sensor_z.kicad_sch"
+			(at 121.92 111.7096 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3655,6 +3743,26 @@
 			)
 			(uuid "2afcdb32-295a-49c4-a046-8f09e67fba8b")
 		)
+		(pin "ZP" input
+			(at 121.92 106.68 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "93e5b7c7-d701-487b-97ac-760b26bd6aa5")
+		)
+		(pin "ZN" input
+			(at 121.92 109.22 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "a1709866-eb47-4808-a1df-721de786e9ec")
+		)
 		(instances
 			(project "AVIONICS_BOARD"
 				(path "/f6cc00ab-17f1-4973-862f-7ac95fe70668/472a2b3c-f2e4-44b5-9587-658c9c0c9365"
@@ -3664,8 +3772,8 @@
 		)
 	)
 	(sheet
-		(at 121.92 112.395)
-		(size 14.605 8.255)
+		(at 121.92 115.57)
+		(size 14.605 10.795)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -3676,7 +3784,7 @@
 		)
 		(uuid "52ed583e-c7bd-4189-96f4-29c701306aab")
 		(property "Sheetname" "Solar Sensors ZN"
-			(at 121.92 111.6834 0)
+			(at 121.92 114.8584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3684,8 +3792,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "solar_sensor_tls.kicad_sch"
-			(at 121.92 121.2346 0)
+		(property "Sheetfile" "solar_sensor_z.kicad_sch"
+			(at 121.92 126.9496 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3695,7 +3803,7 @@
 			)
 		)
 		(pin "VIN" input
-			(at 136.525 113.665 0)
+			(at 136.525 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3705,7 +3813,7 @@
 			(uuid "26bbb3cc-899c-45aa-8c61-3c82bd332f09")
 		)
 		(pin "GND" input
-			(at 136.525 116.205 0)
+			(at 136.525 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3715,7 +3823,7 @@
 			(uuid "29c86d6b-a6d7-4eab-9db0-ec98584a21c6")
 		)
 		(pin "SCL" input
-			(at 121.92 113.665 180)
+			(at 121.92 116.84 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3725,7 +3833,7 @@
 			(uuid "3863c945-e0d6-4a7b-b045-0975fc19b88f")
 		)
 		(pin "*INT" input
-			(at 136.525 118.745 0)
+			(at 136.525 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3735,7 +3843,7 @@
 			(uuid "ad110933-592e-47fa-8bd0-7abf6fd43a3d")
 		)
 		(pin "SDA" input
-			(at 121.92 116.205 180)
+			(at 121.92 119.38 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3743,6 +3851,26 @@
 				(justify left)
 			)
 			(uuid "248739b4-e5d8-4116-a56c-dca28806edf6")
+		)
+		(pin "ZP" input
+			(at 121.92 121.92 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f2dddd66-9853-43ca-bf12-e4ef9ff422a9")
+		)
+		(pin "ZN" input
+			(at 121.92 124.46 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f4500ad2-15ce-40f0-a991-2e63fd0cd5f7")
 		)
 		(instances
 			(project "AVIONICS_BOARD"
@@ -3773,7 +3901,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "solar_sensor_tls.kicad_sch"
+		(property "Sheetfile" "solar_sensor_xy.kicad_sch"
 			(at 121.92 85.0396 0)
 			(effects
 				(font
@@ -3862,7 +3990,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "solar_sensor_tls.kicad_sch"
+		(property "Sheetfile" "solar_sensor_xy.kicad_sch"
 			(at 121.92 60.9096 0)
 			(effects
 				(font
@@ -3951,7 +4079,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "solar_sensor_tls.kicad_sch"
+		(property "Sheetfile" "solar_sensor_xy.kicad_sch"
 			(at 121.92 72.9746 0)
 			(effects
 				(font

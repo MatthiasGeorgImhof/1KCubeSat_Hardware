@@ -2732,7 +2732,7 @@
 			)
 			(project "AVIONICS_BOARD"
 				(path "/f6cc00ab-17f1-4973-862f-7ac95fe70668/0f27fc11-87e0-4e7f-a55a-b48ce0689737"
-					(reference "J5")
+					(reference "J7")
 					(unit 1)
 				)
 			)
