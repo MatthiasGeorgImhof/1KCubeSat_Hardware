@@ -3700,7 +3700,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x02_Female"
+		(property "Value" "Conn_01x02"
 			(at 215.9762 54.229 0)
 			(effects
 				(font

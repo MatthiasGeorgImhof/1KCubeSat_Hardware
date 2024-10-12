@@ -1065,12 +1065,6 @@
 		(uuid "103b734a-fc07-4468-ae5e-b749766423b2")
 	)
 	(junction
-		(at 16.51 94.615)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "128cb1f2-39ce-46f4-b41b-44c0bae1422f")
-	)
-	(junction
 		(at 57.15 200.025)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1087,12 +1081,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2c119506-b6eb-4411-877e-08cd883300af")
-	)
-	(junction
-		(at 16.51 80.645)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3407dac9-6291-4358-9e28-b88dbfbef350")
 	)
 	(junction
 		(at 94.615 33.02)
@@ -1131,12 +1119,6 @@
 		(uuid "4171025c-9f6a-475e-afde-6550644faa10")
 	)
 	(junction
-		(at 61.595 66.675)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4fd930d6-2af4-49a7-abf9-8238bab5ff20")
-	)
-	(junction
 		(at 233.045 153.67)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1165,12 +1147,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6b6d7f38-fc68-426e-83d5-3c1a3c7260fc")
-	)
-	(junction
-		(at 61.595 80.645)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6bcf3b66-dd2e-405f-bfca-d67e5f7e0199")
 	)
 	(junction
 		(at 384.81 170.815)
@@ -1562,7 +1538,7 @@
 	)
 	(wire
 		(pts
-			(xy 16.51 66.675) (xy 16.51 80.645)
+			(xy 16.51 66.675) (xy 16.51 67.31)
 		)
 		(stroke
 			(width 0)
@@ -1669,16 +1645,6 @@
 			(type default)
 		)
 		(uuid "1a5a5065-19ea-4b26-9959-78ca3a5a6e28")
-	)
-	(wire
-		(pts
-			(xy 42.545 80.645) (xy 61.595 80.645)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1ac08e83-7d12-4451-960c-44363b331891")
 	)
 	(wire
 		(pts
@@ -1892,16 +1858,6 @@
 	)
 	(wire
 		(pts
-			(xy 61.595 80.645) (xy 61.595 94.615)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2e772edb-a940-4328-84cc-25332a05abe8")
-	)
-	(wire
-		(pts
 			(xy 88.265 245.11) (xy 92.71 245.11)
 		)
 		(stroke
@@ -2112,16 +2068,6 @@
 	)
 	(wire
 		(pts
-			(xy 16.51 94.615) (xy 20.32 94.615)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "442c99ec-767c-4766-b204-b982ae6110d8")
-	)
-	(wire
-		(pts
 			(xy 128.27 220.345) (xy 124.46 220.345)
 		)
 		(stroke
@@ -2179,16 +2125,6 @@
 			(type default)
 		)
 		(uuid "497cba2a-823a-484b-80f0-f4a9140d8296")
-	)
-	(wire
-		(pts
-			(xy 42.545 94.615) (xy 61.595 94.615)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "49d35610-3b05-47c9-873f-ad4d8da888fe")
 	)
 	(wire
 		(pts
@@ -3392,16 +3328,6 @@
 	)
 	(wire
 		(pts
-			(xy 16.51 80.645) (xy 16.51 94.615)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aa2ebf84-0a9d-4e33-ad6d-9d6f03cd166f")
-	)
-	(wire
-		(pts
 			(xy 53.975 240.665) (xy 52.07 240.665)
 		)
 		(stroke
@@ -3689,16 +3615,6 @@
 			(type default)
 		)
 		(uuid "c0cd1c7c-c16e-499a-bae3-03c8d99d2b30")
-	)
-	(wire
-		(pts
-			(xy 16.51 80.645) (xy 20.32 80.645)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c152e81d-3cf6-41eb-af5b-c64a5cb98b97")
 	)
 	(wire
 		(pts
@@ -4222,16 +4138,6 @@
 	)
 	(wire
 		(pts
-			(xy 16.51 94.615) (xy 16.51 95.885)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e52af0bf-e407-44ed-b9b5-cc57bd4dd42d")
-	)
-	(wire
-		(pts
 			(xy 88.265 240.665) (xy 92.71 240.665)
 		)
 		(stroke
@@ -4429,16 +4335,6 @@
 			(type default)
 		)
 		(uuid "f4cc5bf8-b4cf-4309-9eef-7ad884023ace")
-	)
-	(wire
-		(pts
-			(xy 61.595 66.675) (xy 61.595 80.645)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f531f593-4326-44a4-b05d-a478ca7292ef")
 	)
 	(wire
 		(pts
@@ -4646,6 +4542,16 @@
 			(justify left bottom)
 		)
 		(uuid "762f0cae-fb42-4926-b57b-1723fa2c36e9")
+	)
+	(text "2 solar cells on each side\nonly sides need connectors\ntop and base feed into sides"
+		(exclude_from_sim no)
+		(at 33.02 78.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7d298a02-0e33-4510-a366-3cef83f719e7")
 	)
 	(text "Current Monitors &\nLoad switching"
 		(exclude_from_sim no)
@@ -10144,7 +10050,7 @@
 	)
 	(symbol
 		(lib_id "EPS-rescue:GND-power")
-		(at 16.51 95.885 0)
+		(at 16.51 67.31 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10152,7 +10058,7 @@
 		(dnp no)
 		(uuid "cd84f3c6-d72a-4152-8972-24fa75f2ec0e")
 		(property "Reference" "#PWR014"
-			(at 16.51 102.235 0)
+			(at 16.51 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10161,7 +10067,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 16.637 100.2792 0)
+			(at 16.637 71.7042 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10170,7 +10076,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 16.51 95.885 0)
+			(at 16.51 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10179,7 +10085,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 16.51 95.885 0)
+			(at 16.51 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10188,7 +10094,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 16.51 95.885 0)
+			(at 16.51 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13127,124 +13033,6 @@
 			(project "EPS"
 				(path "/05170af6-30ef-4c3a-b972-f098085da1bc"
 					(page "5")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 20.32 78.105)
-		(size 22.225 10.16)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "00000000-0000-0000-0000-000061679a36")
-		(property "Sheetname" "SOLAR_INPUT_5"
-			(at 20.32 77.3934 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "SOLAR_INPUT.kicad_sch"
-			(at 20.32 88.8496 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "PWR" output
-			(at 42.545 80.645 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "00cbcc83-19a7-4a5b-98e1-b738ddab1504")
-		)
-		(pin "GND" input
-			(at 20.32 80.645 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "93c2b893-b1a4-4e92-9f26-eefd826aae57")
-		)
-		(instances
-			(project "EPS"
-				(path "/05170af6-30ef-4c3a-b972-f098085da1bc"
-					(page "6")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 20.32 92.075)
-		(size 22.225 10.16)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "00000000-0000-0000-0000-0000616870b5")
-		(property "Sheetname" "SOLAR_INPUT_6"
-			(at 20.32 91.3634 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "SOLAR_INPUT.kicad_sch"
-			(at 20.32 102.8196 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "PWR" output
-			(at 42.545 94.615 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "cbd1a9d6-3b00-4c72-938c-762c50067f26")
-		)
-		(pin "GND" input
-			(at 20.32 94.615 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "7bb577a0-bbca-467d-8258-c8f00c011b1a")
-		)
-		(instances
-			(project "EPS"
-				(path "/05170af6-30ef-4c3a-b972-f098085da1bc"
-					(page "7")
 				)
 			)
 		)
