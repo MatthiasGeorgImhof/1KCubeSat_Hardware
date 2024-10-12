@@ -598,15 +598,6 @@
 				(hide yes)
 			)
 		)
-		(property "Order" "https://www.digikey.com/product-detail/en/adam-tech/PH1-05-UA/2057-PH1-05-UA-ND/9830343"
-			(at 170.18 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Alt" ""
 			(at 170.18 105.41 0)
 			(effects

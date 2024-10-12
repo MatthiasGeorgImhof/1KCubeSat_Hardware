@@ -1990,7 +1990,7 @@
           "group_by": true,
           "label": "DNP",
           "name": "${DNP}",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -2006,15 +2006,9 @@
         },
         {
           "group_by": false,
-          "label": "Order",
-          "name": "Order",
-          "show": false
-        },
-        {
-          "group_by": false,
           "label": "Voltage",
           "name": "Voltage",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -2026,7 +2020,7 @@
           "group_by": false,
           "label": "Amps",
           "name": "Amps",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -2062,72 +2056,6 @@
           "group_by": false,
           "label": "Color",
           "name": "Color",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Manufactorer",
-          "name": "Manufactorer",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "STANDARD",
-          "name": "STANDARD",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "MANUFACTURER",
-          "name": "MANUFACTURER",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "PARTREV",
-          "name": "PARTREV",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "MAXIMUM_PACKAGE_HEIGHT",
-          "name": "MAXIMUM_PACKAGE_HEIGHT",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "PRICE",
-          "name": "PRICE",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "PACKAGE",
-          "name": "PACKAGE",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "AVAILABILITY",
-          "name": "AVAILABILITY",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "MF",
-          "name": "MF",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "MOUSER-PURCHASE-URL",
-          "name": "MOUSER-PURCHASE-URL",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "MP",
-          "name": "MP",
           "show": false
         }
       ],

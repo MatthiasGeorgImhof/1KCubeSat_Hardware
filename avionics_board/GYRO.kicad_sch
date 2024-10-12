@@ -997,15 +997,6 @@
 				(hide yes)
 			)
 		)
-		(property "Order" "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL10B104KA8NNNC/1276-1006-1-ND/3889092"
-			(at 169.545 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Alt" ""
 			(at 169.545 87.63 0)
 			(effects
@@ -1101,15 +1092,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 143.51 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Order" "https://www.digikey.com/product-detail/en/bosch-sensortec/BMG250/828-1065-1-ND/6187900"
 			(at 143.51 93.98 0)
 			(effects
 				(font
@@ -1259,15 +1241,6 @@
 				(hide yes)
 			)
 		)
-		(property "Order" "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL10B104KA8NNNC/1276-1006-1-ND/3889092"
-			(at 158.115 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Alt" ""
 			(at 158.115 87.63 0)
 			(effects
@@ -1363,15 +1336,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 125.73 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Order" "https://www.digikey.com/product-detail/en/koa-speer-electronics-inc/RK73Z1JTTD/2019-RK73Z1JTTDCT-ND/9847522"
 			(at 125.73 88.9 0)
 			(effects
 				(font
@@ -1495,15 +1459,6 @@
 				(hide yes)
 			)
 		)
-		(property "Order" "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL10B104KA8NNNC/1276-1006-1-ND/3889092"
-			(at 110.49 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Alt" ""
 			(at 110.49 87.63 0)
 			(effects
@@ -1612,15 +1567,6 @@
 		)
 		(property "Voltage" "16"
 			(at 93.98 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Order" "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL10B104KA8NNNC/1276-1006-1-ND/3889092"
-			(at 99.06 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)

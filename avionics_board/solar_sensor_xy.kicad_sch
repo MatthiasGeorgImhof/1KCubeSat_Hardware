@@ -342,7 +342,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "29ccd359-7cc3-46a5-97ba-29907f93254b")
-		(property "Reference" "J13"
+		(property "Reference" "J12"
 			(at 143.51 77.47 0)
 			(effects
 				(font
@@ -358,7 +358,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Common:SAMTEC-CLP-103-02-X-DH"
+		(property "Footprint" "Common:HARWIN_M50-3200345"
 			(at 144.78 85.725 0)
 			(effects
 				(font
@@ -367,7 +367,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://cdn.harwin.com/pdfs/M50-320.pdf"
 			(at 144.78 85.725 0)
 			(effects
 				(font
@@ -386,6 +386,24 @@
 			)
 		)
 		(property "Alt" ""
+			(at 144.78 85.725 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Harwin"
+			(at 144.78 85.725 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "M50-3200345"
 			(at 144.78 85.725 0)
 			(effects
 				(font

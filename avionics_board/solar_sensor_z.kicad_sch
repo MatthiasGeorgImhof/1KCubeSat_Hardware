@@ -522,7 +522,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Common:SAMTEC_CLP-105-02-X-DH"
+		(property "Footprint" "Common:HARWIN_M50-3200545"
 			(at 144.78 85.725 0)
 			(effects
 				(font
@@ -531,7 +531,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://cdn.harwin.com/pdfs/M50-320.pdf"
 			(at 144.78 85.725 0)
 			(effects
 				(font
@@ -550,6 +550,24 @@
 			)
 		)
 		(property "Alt" ""
+			(at 144.78 85.725 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Harwin"
+			(at 144.78 85.725 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "M50-3200545"
 			(at 144.78 85.725 0)
 			(effects
 				(font

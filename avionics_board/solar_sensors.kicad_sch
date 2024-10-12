@@ -3005,7 +3005,7 @@
 				)
 			)
 		)
-		(property "Value" "EXBA10P472J"
+		(property "Value" "4K7"
 			(at 107.3161 138.43 0)
 			(effects
 				(font
@@ -3023,7 +3023,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "EXBA10P472J"
+		(property "Datasheet" "https://industrial.panasonic.com/ww/products/pt/resistor-network-array/models/EXBA10P472J"
 			(at 94.615 142.24 0)
 			(effects
 				(font
@@ -3042,63 +3042,30 @@
 				(hide yes)
 			)
 		)
-		(property "MF" "Yageo"
+		(property "Manufacturer" "Panasonic"
 			(at 94.615 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 				(hide yes)
 			)
 		)
-		(property "MOUSER-PURCHASE-URL" "https://snapeda.com/shop?store=Mouser&id=600502"
+		(property "Part Number" "EXB-A10P472J"
 			(at 94.615 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 				(hide yes)
 			)
 		)
-		(property "PACKAGE" "1206 Yageo"
+		(property "Tolerance" "5"
 			(at 94.615 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PRICE" "None"
-			(at 94.615 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "YC158TJR-0722KL"
-			(at 94.615 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "AVAILABILITY" "Warning"
-			(at 94.615 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
 				(hide yes)
 			)
 		)
@@ -3159,7 +3126,7 @@
 				)
 			)
 		)
-		(property "Value" "EXBA10P472J"
+		(property "Value" "4K7"
 			(at 149.8611 139.065 0)
 			(effects
 				(font
@@ -3177,7 +3144,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "EXBA10P472J"
+		(property "Datasheet" "https://industrial.panasonic.com/ww/products/pt/resistor-network-array/models/EXBA10P472J"
 			(at 137.16 142.875 0)
 			(effects
 				(font
@@ -3196,63 +3163,30 @@
 				(hide yes)
 			)
 		)
-		(property "MF" "Yageo"
+		(property "Manufacturer" "Panasonic"
 			(at 137.16 142.875 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 				(hide yes)
 			)
 		)
-		(property "MOUSER-PURCHASE-URL" "https://snapeda.com/shop?store=Mouser&id=600502"
+		(property "Part Number" "EXB-A10P472J"
 			(at 137.16 142.875 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 				(hide yes)
 			)
 		)
-		(property "PACKAGE" "1206 Yageo"
+		(property "Tolerance" "5"
 			(at 137.16 142.875 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PRICE" "None"
-			(at 137.16 142.875 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "YC158TJR-0722KL"
-			(at 137.16 142.875 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "AVAILABILITY" "Warning"
-			(at 137.16 142.875 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
 				(hide yes)
 			)
 		)

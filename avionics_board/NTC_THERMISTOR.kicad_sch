@@ -661,15 +661,6 @@
 				(hide yes)
 			)
 		)
-		(property "Order" "https://www.digikey.com/product-detail/en/murata-electronics/NXFT15WB473FA2B150/490-14853-ND/6606459"
-			(at 120.65 74.93 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Alt" ""
 			(at 120.65 74.93 0)
 			(effects
@@ -777,15 +768,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 120.65 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Order" "https://www.digikey.com/product-detail/en/bourns-inc/CR0603-FX-4702ELF/CR0603-FX-4702ELFCT-ND/3925317"
 			(at 120.65 48.26 0)
 			(effects
 				(font

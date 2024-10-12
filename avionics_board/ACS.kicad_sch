@@ -9,21 +9,21 @@
 		(date "2020-05-15")
 	)
 	(lib_symbols
-		(symbol "Connector_Generic:Conn_02x02_Odd_Even"
+		(symbol "Connector_Generic:Conn_02x03_Odd_Even"
 			(pin_names
 				(offset 1.016) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "J"
-				(at 1.27 2.54 0)
+				(at 1.27 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "Conn_02x02_Odd_Even"
+			(property "Value" "Conn_02x03_Odd_Even"
 				(at 1.27 -5.08 0)
 				(effects
 					(font
@@ -49,7 +49,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Generic connector, double row, 02x02, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(property "Description" "Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
 				(at 0 0 0)
 				(effects
 					(font
@@ -76,7 +76,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Conn_02x02_Odd_Even_1_1"
+			(symbol "Conn_02x03_Odd_Even_1_1"
 				(rectangle
 					(start -1.27 -2.413)
 					(end 0 -2.667)
@@ -100,7 +100,18 @@
 					)
 				)
 				(rectangle
-					(start -1.27 1.27)
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 3.81)
 					(end 3.81 -3.81)
 					(stroke
 						(width 0.254)
@@ -132,8 +143,19 @@
 						(type none)
 					)
 				)
+				(rectangle
+					(start 3.81 2.667)
+					(end 2.54 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(pin passive line
-					(at -5.08 0 0)
+					(at -5.08 2.54 0)
 					(length 3.81)
 					(name "Pin_1"
 						(effects
@@ -151,7 +173,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 0 180)
+					(at 7.62 2.54 180)
 					(length 3.81)
 					(name "Pin_2"
 						(effects
@@ -169,7 +191,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -2.54 0)
+					(at -5.08 0 0)
 					(length 3.81)
 					(name "Pin_3"
 						(effects
@@ -187,7 +209,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 -2.54 180)
+					(at 7.62 0 180)
 					(length 3.81)
 					(name "Pin_4"
 						(effects
@@ -197,6 +219,42 @@
 						)
 					)
 					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -2.54 180)
+					(length 3.81)
+					(name "Pin_6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -790,6 +848,18 @@
 			)
 		)
 	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 164.465 60.325 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0ffcbdfc-70e1-460d-8c1e-3adfc4e5aeaf")
+	)
 	(hierarchical_label "Z_nSLEEP"
 		(shape input)
 		(at 71.12 148.59 180)
@@ -802,6 +872,18 @@
 		)
 		(uuid "17f57e15-ef0c-4028-80c7-3ad12317639d")
 	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 192.405 75.565 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2367697c-80e3-49c3-b747-677a41360c6a")
+	)
 	(hierarchical_label "PWR_LOGIC_IN"
 		(shape input)
 		(at 71.12 55.88 180)
@@ -813,6 +895,30 @@
 			(justify right)
 		)
 		(uuid "2a47518d-8ad5-4f6c-b073-8f6bf8e4f795")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 151.765 75.565 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "321baf5e-d20c-4fc5-8d31-e0164567d38a")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 151.765 60.325 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "37da6d9a-9acd-439f-a03b-d3ec46287853")
 	)
 	(hierarchical_label "GND"
 		(shape input)
@@ -958,6 +1064,18 @@
 		)
 		(uuid "8414fbcd-8dfd-43ab-8142-256f7fb3afbe")
 	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 179.705 60.325 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8a1107e5-87f8-4b53-9776-bf1be4e6ba34")
+	)
 	(hierarchical_label "Z_PH"
 		(shape input)
 		(at 71.12 151.13 180)
@@ -981,6 +1099,18 @@
 			(justify right)
 		)
 		(uuid "9f58584c-704c-4a54-9e35-7dc3b32e3d83")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 179.705 75.565 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9f8b47d2-5292-416e-b8d1-70a9c460c86b")
 	)
 	(hierarchical_label "*ACS_INT"
 		(shape input)
@@ -1041,6 +1171,18 @@
 			(justify right)
 		)
 		(uuid "b04fe31a-5671-4243-a335-396d71b5e9d3")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 164.465 75.565 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b59894af-2c58-4e9a-8b2d-157faf7875a3")
 	)
 	(hierarchical_label "PWR_COIL_IN"
 		(shape input)
@@ -1152,6 +1294,18 @@
 	)
 	(hierarchical_label "GND"
 		(shape input)
+		(at 192.405 60.325 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f678d3a6-7183-4466-941d-7e62c97a0766")
+	)
+	(hierarchical_label "GND"
+		(shape input)
 		(at 71.12 157.48 180)
 		(fields_autoplaced yes)
 		(effects
@@ -1175,7 +1329,7 @@
 		(uuid "fedef31c-1a60-4cb1-b1e5-95abb096a53f")
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_02x02_Odd_Even")
+		(lib_id "Connector_Generic:Conn_02x03_Odd_Even")
 		(at 156.845 78.105 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1185,6 +1339,14 @@
 		(fields_autoplaced yes)
 		(uuid "17d66e7e-c15c-4957-ac0b-85627c3ed303")
 		(property "Reference" "J3"
+			(at 158.115 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_02x03_Odd_Even"
 			(at 158.115 72.39 0)
 			(effects
 				(font
@@ -1192,15 +1354,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_02x02_Odd_Even"
-			(at 158.115 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Common:SAMTEC-CLP-102-02-X-DH"
+		(property "Footprint" "Common:HARWIN_M50-3200345"
 			(at 156.845 78.105 0)
 			(effects
 				(font
@@ -1209,7 +1363,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://cdn.harwin.com/pdfs/M50-320.pdf"
 			(at 156.845 78.105 0)
 			(effects
 				(font
@@ -1218,7 +1372,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, double row, 02x02, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 156.845 78.105 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Harwin"
+			(at 156.845 78.105 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "M50-3200345"
 			(at 156.845 78.105 0)
 			(effects
 				(font
@@ -1238,6 +1410,12 @@
 		)
 		(pin "4"
 			(uuid "bfd3ccd6-bda3-4372-8288-cb954af3a760")
+		)
+		(pin "5"
+			(uuid "aa9322a2-eec3-4f82-8094-5543f939f57a")
+		)
+		(pin "6"
+			(uuid "0cfb2bb7-531a-4be6-8c76-3c557dc9297c")
 		)
 		(instances
 			(project "AVIONICS_BOARD"
@@ -1355,7 +1533,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_02x02_Odd_Even")
+		(lib_id "Connector_Generic:Conn_02x03_Odd_Even")
 		(at 156.845 62.865 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1365,6 +1543,14 @@
 		(fields_autoplaced yes)
 		(uuid "a87765aa-21fd-49fe-b597-31f5a6b27b70")
 		(property "Reference" "J1"
+			(at 158.115 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_02x03_Odd_Even"
 			(at 158.115 57.15 0)
 			(effects
 				(font
@@ -1372,15 +1558,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_02x02_Odd_Even"
-			(at 158.115 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Common:SAMTEC-CLP-102-02-X-DH"
+		(property "Footprint" "Common:HARWIN_M50-3200345"
 			(at 156.845 62.865 0)
 			(effects
 				(font
@@ -1389,7 +1567,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://cdn.harwin.com/pdfs/M50-320.pdf"
 			(at 156.845 62.865 0)
 			(effects
 				(font
@@ -1398,7 +1576,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, double row, 02x02, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 156.845 62.865 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Harwin"
+			(at 156.845 62.865 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "M50-3200345"
 			(at 156.845 62.865 0)
 			(effects
 				(font
@@ -1419,6 +1615,12 @@
 		(pin "4"
 			(uuid "b92f84f8-6c3a-423b-a292-52427d7188fc")
 		)
+		(pin "6"
+			(uuid "08c42ea4-2d6a-4892-bb0f-87b78942abd2")
+		)
+		(pin "5"
+			(uuid "f4b3d0f1-310c-4143-9993-cc73b5aee083")
+		)
 		(instances
 			(project ""
 				(path "/f6cc00ab-17f1-4973-862f-7ac95fe70668/1f9ae17d-3f3e-4633-9b01-30c344473415"
@@ -1429,7 +1631,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_02x02_Odd_Even")
+		(lib_id "Connector_Generic:Conn_02x03_Odd_Even")
 		(at 184.785 62.865 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1439,6 +1641,14 @@
 		(fields_autoplaced yes)
 		(uuid "bc09231b-3b8e-40a5-b0d9-e495e62c0c42")
 		(property "Reference" "J2"
+			(at 186.055 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_02x03_Odd_Even"
 			(at 186.055 57.15 0)
 			(effects
 				(font
@@ -1446,15 +1656,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_02x02_Odd_Even"
-			(at 186.055 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Common:SAMTEC-CLP-102-02-X-DH"
+		(property "Footprint" "Common:HARWIN_M50-3200345"
 			(at 184.785 62.865 0)
 			(effects
 				(font
@@ -1463,7 +1665,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://cdn.harwin.com/pdfs/M50-320.pdf"
 			(at 184.785 62.865 0)
 			(effects
 				(font
@@ -1472,7 +1674,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, double row, 02x02, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 184.785 62.865 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Harwin"
+			(at 184.785 62.865 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "M50-3200345"
 			(at 184.785 62.865 0)
 			(effects
 				(font
@@ -1493,6 +1713,12 @@
 		(pin "4"
 			(uuid "393c4b9a-96a0-4832-b570-c280067e8c3b")
 		)
+		(pin "5"
+			(uuid "f1f361f6-cc44-439d-93e6-5b8dcc7396d4")
+		)
+		(pin "6"
+			(uuid "8feb3d19-d274-41e3-85a8-07c2a5ceb221")
+		)
 		(instances
 			(project "AVIONICS_BOARD"
 				(path "/f6cc00ab-17f1-4973-862f-7ac95fe70668/1f9ae17d-3f3e-4633-9b01-30c344473415"
@@ -1503,7 +1729,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_02x02_Odd_Even")
+		(lib_id "Connector_Generic:Conn_02x03_Odd_Even")
 		(at 184.785 78.105 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1513,6 +1739,14 @@
 		(fields_autoplaced yes)
 		(uuid "d93726b1-13f0-49b3-8c8e-9ea4d155c6ac")
 		(property "Reference" "J4"
+			(at 186.055 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_02x03_Odd_Even"
 			(at 186.055 72.39 0)
 			(effects
 				(font
@@ -1520,15 +1754,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_02x02_Odd_Even"
-			(at 186.055 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Common:SAMTEC-CLP-102-02-X-DH"
+		(property "Footprint" "Common:HARWIN_M50-3200345"
 			(at 184.785 78.105 0)
 			(effects
 				(font
@@ -1537,7 +1763,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://cdn.harwin.com/pdfs/M50-320.pdf"
 			(at 184.785 78.105 0)
 			(effects
 				(font
@@ -1546,7 +1772,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, double row, 02x02, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 184.785 78.105 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Harwin"
+			(at 184.785 78.105 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "M50-3200345"
 			(at 184.785 78.105 0)
 			(effects
 				(font
@@ -1566,6 +1810,12 @@
 		)
 		(pin "4"
 			(uuid "ee33b76e-df8b-4bfa-b287-ceaf72c532b9")
+		)
+		(pin "5"
+			(uuid "c5bef8de-3989-444e-8fa2-1d571f2c2031")
+		)
+		(pin "6"
+			(uuid "fa27eb3f-e185-423b-982d-f65e2a019c82")
 		)
 		(instances
 			(project "AVIONICS_BOARD"

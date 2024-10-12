@@ -2076,7 +2076,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.nidec-copal-electronics.com/e/catalog/switch/chs.pdf"
+		(property "Datasheet" ""
 			(at 96.52 86.36 0)
 			(effects
 				(font
