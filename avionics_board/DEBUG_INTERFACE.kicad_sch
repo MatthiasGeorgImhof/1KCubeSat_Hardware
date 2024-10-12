@@ -2338,6 +2338,12 @@
 					(unit 1)
 				)
 			)
+			(project "sci_board"
+				(path "/b4b2c88d-f6cd-4e60-862d-e21f68728580/840799ac-4fe6-4a8e-96a2-299affeec8e4/3a4f04a3-bf3f-413a-bc77-fd47ed49c088"
+					(reference "R46")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/f6cc00ab-17f1-4973-862f-7ac95fe70668/00000000-0000-0000-0000-00005ea31c93/00000000-0000-0000-0000-00005eab1235"
 					(reference "R23")
@@ -2428,6 +2434,12 @@
 			(project "EPS"
 				(path "/05170af6-30ef-4c3a-b972-f098085da1bc/00000000-0000-0000-0000-00005fbffcb6/00000000-0000-0000-0000-00005eab1235"
 					(reference "J7")
+					(unit 1)
+				)
+			)
+			(project "sci_board"
+				(path "/b4b2c88d-f6cd-4e60-862d-e21f68728580/840799ac-4fe6-4a8e-96a2-299affeec8e4/3a4f04a3-bf3f-413a-bc77-fd47ed49c088"
+					(reference "J9")
 					(unit 1)
 				)
 			)
@@ -2540,6 +2552,12 @@
 					(unit 1)
 				)
 			)
+			(project "sci_board"
+				(path "/b4b2c88d-f6cd-4e60-862d-e21f68728580/840799ac-4fe6-4a8e-96a2-299affeec8e4/3a4f04a3-bf3f-413a-bc77-fd47ed49c088"
+					(reference "R47")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/f6cc00ab-17f1-4973-862f-7ac95fe70668/00000000-0000-0000-0000-00005ea31c93/00000000-0000-0000-0000-00005eab1235"
 					(reference "R24")
@@ -2646,6 +2664,12 @@
 			(project "EPS"
 				(path "/05170af6-30ef-4c3a-b972-f098085da1bc/00000000-0000-0000-0000-00005fbffcb6/00000000-0000-0000-0000-00005eab1235"
 					(reference "R24")
+					(unit 1)
+				)
+			)
+			(project "sci_board"
+				(path "/b4b2c88d-f6cd-4e60-862d-e21f68728580/840799ac-4fe6-4a8e-96a2-299affeec8e4/3a4f04a3-bf3f-413a-bc77-fd47ed49c088"
+					(reference "R48")
 					(unit 1)
 				)
 			)
@@ -2758,6 +2782,12 @@
 					(unit 1)
 				)
 			)
+			(project "sci_board"
+				(path "/b4b2c88d-f6cd-4e60-862d-e21f68728580/840799ac-4fe6-4a8e-96a2-299affeec8e4/3a4f04a3-bf3f-413a-bc77-fd47ed49c088"
+					(reference "R45")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/f6cc00ab-17f1-4973-862f-7ac95fe70668/00000000-0000-0000-0000-00005ea31c93/00000000-0000-0000-0000-00005eab1235"
 					(reference "R22")
@@ -2864,6 +2894,12 @@
 			(project "EPS"
 				(path "/05170af6-30ef-4c3a-b972-f098085da1bc/00000000-0000-0000-0000-00005fbffcb6/00000000-0000-0000-0000-00005eab1235"
 					(reference "R25")
+					(unit 1)
+				)
+			)
+			(project "sci_board"
+				(path "/b4b2c88d-f6cd-4e60-862d-e21f68728580/840799ac-4fe6-4a8e-96a2-299affeec8e4/3a4f04a3-bf3f-413a-bc77-fd47ed49c088"
+					(reference "R49")
 					(unit 1)
 				)
 			)

@@ -3650,10 +3650,6 @@
 		(at 158.75 151.13)
 		(uuid "cba40a2d-22ae-4997-ba01-944c1924b14c")
 	)
-	(no_connect
-		(at 158.75 100.33)
-		(uuid "fd399fef-d286-40a0-8fd5-404a8b585cf6")
-	)
 	(wire
 		(pts
 			(xy 52.07 100.33) (xy 57.15 100.33)
@@ -4842,6 +4838,17 @@
 			(justify right bottom)
 		)
 		(uuid "6d8adc23-6919-47ba-b2b9-ea6bc833931f")
+	)
+	(label "WATCHDOG_DONE"
+		(at 158.75 100.33 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "703181f2-cee8-4526-8772-f1dd9909af7d")
 	)
 	(label "LED2"
 		(at 113.03 153.67 180)
