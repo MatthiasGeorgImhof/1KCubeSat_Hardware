@@ -838,11 +838,15 @@
 		(uuid "c34ecb68-a707-4445-83cd-95503caffd27")
 	)
 	(no_connect
+		(at 86.36 126.365)
+		(uuid "ca1c6451-1ee3-4d61-87dc-7cabe915b921")
+	)
+	(no_connect
 		(at 88.265 40.005)
 		(uuid "ca8cd5a3-f9f8-4a4e-b100-5ac23e0feeb8")
 	)
 	(no_connect
-		(at 86.36 124.46)
+		(at 86.36 123.825)
 		(uuid "ccd7076d-47da-4690-adb7-4c251ca63cf9")
 	)
 	(no_connect
@@ -1011,7 +1015,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.995 119.38) (xy 88.265 119.38)
+			(xy 86.995 118.745) (xy 88.265 118.745)
 		)
 		(stroke
 			(width 0)
@@ -1351,7 +1355,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.995 114.3) (xy 88.265 114.3)
+			(xy 86.995 113.665) (xy 88.265 113.665)
 		)
 		(stroke
 			(width 0)
@@ -1451,7 +1455,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.995 121.92) (xy 88.265 121.92)
+			(xy 86.995 121.285) (xy 88.265 121.285)
 		)
 		(stroke
 			(width 0)
@@ -1558,6 +1562,16 @@
 			(type default)
 		)
 		(uuid "8a46543b-2403-4701-8268-beda0ff6e7ab")
+	)
+	(wire
+		(pts
+			(xy 86.36 126.365) (xy 88.265 126.365)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c3b775d-b456-418c-b182-dbed589cbc59")
 	)
 	(wire
 		(pts
@@ -1731,7 +1745,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 124.46) (xy 88.265 124.46)
+			(xy 86.36 123.825) (xy 88.265 123.825)
 		)
 		(stroke
 			(width 0)
@@ -1951,7 +1965,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 128.905) (xy 88.265 128.905)
+			(xy 86.36 129.54) (xy 88.265 129.54)
 		)
 		(stroke
 			(width 0)
@@ -2031,7 +2045,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.995 116.84) (xy 88.265 116.84)
+			(xy 86.995 116.205) (xy 88.265 116.205)
 		)
 		(stroke
 			(width 0)
@@ -2172,7 +2186,7 @@
 		(uuid "0adb5e9a-b5f5-411f-b642-905ccb8a9c8e")
 	)
 	(label "INT3"
-		(at 86.995 121.92 180)
+		(at 86.995 121.285 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2227,7 +2241,7 @@
 		(uuid "373d4c01-c8c3-49b3-b793-f0cee9497af3")
 	)
 	(label "INT2"
-		(at 86.995 119.38 180)
+		(at 86.995 118.745 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2238,7 +2252,7 @@
 		(uuid "3be675ac-376f-4638-80d6-f324f8c9451e")
 	)
 	(label "INT1"
-		(at 86.995 116.84 180)
+		(at 86.995 116.205 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2260,7 +2274,7 @@
 		(uuid "49b29b14-cd10-4f5c-b42b-543686d977bf")
 	)
 	(label "ATTN"
-		(at 86.995 114.3 180)
+		(at 86.995 113.665 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2392,7 +2406,7 @@
 		(uuid "bf15a21b-ffd6-43fd-8714-e978c602f245")
 	)
 	(label "RESET"
-		(at 86.36 128.905 180)
+		(at 86.36 129.54 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6994,7 +7008,7 @@
 			(uuid "7819c17b-9755-4ed0-93f9-e73d9ea238ff")
 		)
 		(pin "EXTI8" input
-			(at 88.265 119.38 180)
+			(at 88.265 118.745 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7004,7 +7018,7 @@
 			(uuid "3ad149cd-90cd-4f9b-8401-1fff99283cca")
 		)
 		(pin "EXTI7" input
-			(at 88.265 116.84 180)
+			(at 88.265 116.205 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7014,7 +7028,7 @@
 			(uuid "ebd2900b-a65d-47bf-9540-ff63084d3614")
 		)
 		(pin "EXTI9" input
-			(at 88.265 121.92 180)
+			(at 88.265 121.285 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7024,7 +7038,7 @@
 			(uuid "c32da8a4-6436-450a-8bf1-5d1a437ac643")
 		)
 		(pin "EXTR_RST" input
-			(at 88.265 128.905 180)
+			(at 88.265 129.54 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7084,7 +7098,7 @@
 			(uuid "9f958d16-7a84-4175-9ac1-97558456a3be")
 		)
 		(pin "EXTI_11" input
-			(at 88.265 124.46 180)
+			(at 88.265 126.365 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7104,7 +7118,7 @@
 			(uuid "8487682f-4e43-403c-bb02-5216474442d2")
 		)
 		(pin "EXTI2" input
-			(at 88.265 114.3 180)
+			(at 88.265 113.665 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7212,6 +7226,16 @@
 				(justify left)
 			)
 			(uuid "1963b2cc-641f-4859-b5bf-f762b72aa913")
+		)
+		(pin "EXTI_10" input
+			(at 88.265 123.825 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "851212f7-338f-450b-b1bb-8cd273d984e0")
 		)
 		(instances
 			(project "sci_board"

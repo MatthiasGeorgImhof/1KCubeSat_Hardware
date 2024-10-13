@@ -3650,15 +3650,9 @@
 		(at 158.75 151.13)
 		(uuid "cba40a2d-22ae-4997-ba01-944c1924b14c")
 	)
-	(wire
-		(pts
-			(xy 52.07 100.33) (xy 57.15 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0204ced4-e267-4867-a2a6-23cdb769c105")
+	(no_connect
+		(at 158.75 100.33)
+		(uuid "ddf1af4e-a45b-4758-a51a-4dddf306f726")
 	)
 	(wire
 		(pts
@@ -3672,16 +3666,6 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 102.87) (xy 52.07 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "05cbdaaf-19f4-482e-9b88-806bc9bf5d0a")
-	)
-	(wire
-		(pts
 			(xy 138.43 49.53) (xy 140.97 49.53)
 		)
 		(stroke
@@ -3689,16 +3673,6 @@
 			(type default)
 		)
 		(uuid "06ab64c0-74a5-417e-9406-9cac329b1b76")
-	)
-	(wire
-		(pts
-			(xy 57.15 107.95) (xy 52.07 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0733dbbe-de5c-4aad-a94c-a0a63f32badb")
 	)
 	(wire
 		(pts
@@ -3729,16 +3703,6 @@
 			(type default)
 		)
 		(uuid "1316707e-59db-4453-9f95-3342ddd5876f")
-	)
-	(wire
-		(pts
-			(xy 52.07 105.41) (xy 113.03 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "14d8d067-b3ff-496b-939c-7f1da64ef901")
 	)
 	(wire
 		(pts
@@ -4222,6 +4186,16 @@
 	)
 	(wire
 		(pts
+			(xy 36.195 64.135) (xy 34.29 64.135)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83300aee-a20e-46cb-8c88-f754c492573c")
+	)
+	(wire
+		(pts
 			(xy 60.96 74.93) (xy 113.03 74.93)
 		)
 		(stroke
@@ -4259,16 +4233,6 @@
 			(type default)
 		)
 		(uuid "88a1686a-c3ad-4fa5-a3fe-7bf40075c83f")
-	)
-	(wire
-		(pts
-			(xy 52.07 110.49) (xy 57.15 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8e789aa1-a6c4-41c8-bff1-7809ab12b7ba")
 	)
 	(wire
 		(pts
@@ -4412,16 +4376,6 @@
 	)
 	(wire
 		(pts
-			(xy 40.005 60.325) (xy 41.91 60.325)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b582cdf0-7570-4c3b-bb9c-b25089bf8a65")
-	)
-	(wire
-		(pts
 			(xy 63.5 60.325) (xy 61.595 60.325)
 		)
 		(stroke
@@ -4499,6 +4453,16 @@
 			(type default)
 		)
 		(uuid "c9a9423e-affd-43b9-b7d4-7f6dc531d2db")
+	)
+	(wire
+		(pts
+			(xy 34.29 60.325) (xy 41.91 60.325)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd7ec019-e828-4ab9-9ea0-3994060d46fe")
 	)
 	(wire
 		(pts
@@ -4630,17 +4594,6 @@
 		)
 		(uuid "fff10ded-6c50-4085-9d43-97c0da415e17")
 	)
-	(text "WATCH- \n DOG"
-		(exclude_from_sim no)
-		(at 21.59 111.76 0)
-		(effects
-			(font
-				(size 3.5052 3.5052)
-			)
-			(justify left bottom)
-		)
-		(uuid "122ad439-5c7f-4401-a9d5-556da09af968")
-	)
 	(text "SPI2_MOSI"
 		(exclude_from_sim no)
 		(at 160.02 148.59 0)
@@ -4663,6 +4616,17 @@
 		)
 		(uuid "3d72704f-838d-4dcd-9440-0d0d5442ccdd")
 	)
+	(text "WATCHDOG_DONE"
+		(exclude_from_sim no)
+		(at 158.75 100.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "58b66299-aae1-4445-8727-7b19f4b0e830")
+	)
 	(text "VDDA\n"
 		(exclude_from_sim no)
 		(at 168.91 27.305 0)
@@ -4673,17 +4637,6 @@
 			(justify left bottom)
 		)
 		(uuid "5aedb523-5201-489c-bf41-dee11a2b78a7")
-	)
-	(text "VDD: 1.8V to 5.5V"
-		(exclude_from_sim no)
-		(at 39.37 100.33 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "992a63bc-bef1-49c3-9e1a-778ca7db300c")
 	)
 	(text "SPI2_MISO"
 		(exclude_from_sim no)
@@ -4718,6 +4671,17 @@
 		)
 		(uuid "cc562ced-d7c6-463e-ac25-c9f2820a89ce")
 	)
+	(text "WATCHDOG_WAKE"
+		(exclude_from_sim no)
+		(at 85.09 109.22 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "defdf84e-71f2-419e-adbe-d3756476d35d")
+	)
 	(label "SWDIO"
 		(at 231.775 151.765 180)
 		(fields_autoplaced yes)
@@ -4750,17 +4714,6 @@
 			(justify right bottom)
 		)
 		(uuid "0aa14412-35ee-4b92-ada2-427b2d95e789")
-	)
-	(label "RST"
-		(at 40.005 60.325 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "14ea1d80-1dcc-4a72-8bd8-b8d320c5fd1d")
 	)
 	(label "BOOT0"
 		(at 231.775 156.845 180)
@@ -4806,17 +4759,6 @@
 		)
 		(uuid "452578af-f5b5-4373-bcca-4cb68173e34d")
 	)
-	(label "EXTI_10"
-		(at 96.52 105.41 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "52a50c9a-c0ff-481f-b35d-e02f0741a746")
-	)
 	(label "LPUART_RX"
 		(at 174.625 143.51 0)
 		(fields_autoplaced yes)
@@ -4839,17 +4781,6 @@
 		)
 		(uuid "6d8adc23-6919-47ba-b2b9-ea6bc833931f")
 	)
-	(label "WATCHDOG_DONE"
-		(at 158.75 100.33 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "703181f2-cee8-4526-8772-f1dd9909af7d")
-	)
 	(label "LED2"
 		(at 113.03 153.67 180)
 		(fields_autoplaced yes)
@@ -4860,17 +4791,6 @@
 			(justify right bottom)
 		)
 		(uuid "74e29511-54df-4639-b6d7-d41f35b8ebb1")
-	)
-	(label "WATCHDOG_DONE"
-		(at 57.15 102.87 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7c699f16-470a-4b78-8594-8cc693b79fab")
 	)
 	(label "RESET"
 		(at 231.775 159.385 180)
@@ -4893,17 +4813,6 @@
 			(justify left bottom)
 		)
 		(uuid "8e1ccdb4-90bf-4da5-adbc-7dea9131c092")
-	)
-	(label "RST"
-		(at 57.15 100.33 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "93a46ba9-71d9-40e0-a7be-c04fa574f0f2")
 	)
 	(label "USART1_RX"
 		(at 176.53 82.55 0)
@@ -5047,17 +4956,6 @@
 			(justify left bottom)
 		)
 		(uuid "f20ff80b-b0f5-4e7e-9122-9cffd45ad4e5")
-	)
-	(label "WATCHDOG_WAKE"
-		(at 57.15 105.41 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f54b47ee-0fb5-4f37-b78f-95dd180b9c0d")
 	)
 	(label "LED4"
 		(at 113.03 158.75 180)
@@ -5271,6 +5169,18 @@
 			(justify right)
 		)
 		(uuid "1dc2249c-49f2-4d54-af11-97fddd463d05")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 36.195 64.135 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2083b16a-f3b4-43bd-ab7f-fdd8e8c890c2")
 	)
 	(hierarchical_label "EN_1V5"
 		(shape input)
@@ -5500,6 +5410,18 @@
 		)
 		(uuid "5879c61f-73ba-4088-9325-cf53d5144f12")
 	)
+	(hierarchical_label "EXTI_10"
+		(shape input)
+		(at 113.03 105.41 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5d2e3785-ab48-4e9c-b9eb-b306be1301b7")
+	)
 	(hierarchical_label "SPI1_FLASH1"
 		(shape output)
 		(at 113.03 118.11 180)
@@ -5572,18 +5494,6 @@
 		)
 		(uuid "75142898-e90d-4d13-bb52-1744bc8adeaa")
 	)
-	(hierarchical_label "GND"
-		(shape input)
-		(at 57.15 110.49 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "829d76f5-1ddc-4d93-a06f-5ad844a95d5a")
-	)
 	(hierarchical_label "DCMI_VSYNC"
 		(shape input)
 		(at 158.75 118.11 0)
@@ -5607,18 +5517,6 @@
 			(justify right)
 		)
 		(uuid "8405d460-787e-493b-8484-22cb0b3a2548")
-	)
-	(hierarchical_label "VIO"
-		(shape input)
-		(at 57.15 107.95 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "87a80f1b-b9a2-45a8-8082-94a423b01443")
 	)
 	(hierarchical_label "GND"
 		(shape input)
@@ -9327,6 +9225,64 @@
 		)
 	)
 	(sheet
+		(at 21.59 58.42)
+		(size 12.7 7.62)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "bc095972-e013-4615-9f72-847fc40745b3")
+		(property "Sheetname" "RESET"
+			(at 21.59 57.7084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "reset.kicad_sch"
+			(at 21.59 66.6246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "RST" output
+			(at 34.29 60.325 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "62a6aecc-b33c-4bb3-bf37-8dd3146a74c4")
+		)
+		(pin "GND" input
+			(at 34.29 64.135 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "2cbb7843-4f73-419f-8dbe-bde39be7a663")
+		)
+		(instances
+			(project "sci_board"
+				(path "/b4b2c88d-f6cd-4e60-862d-e21f68728580/840799ac-4fe6-4a8e-96a2-299affeec8e4"
+					(page "26")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 41.91 52.07)
 		(size 19.685 10.16)
 		(stroke
@@ -9337,7 +9293,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "be725391-4517-4a91-8537-5b0e0ace46a2")
-		(property "Sheetname" "RESET"
+		(property "Sheetname" "RESET_ST"
 			(at 41.91 51.3584 0)
 			(effects
 				(font
@@ -9489,94 +9445,6 @@
 			(project "sci_board"
 				(path "/b4b2c88d-f6cd-4e60-862d-e21f68728580/840799ac-4fe6-4a8e-96a2-299affeec8e4"
 					(page "17")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 21.59 97.79)
-		(size 30.48 16.51)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "f8fd9467-fdd1-43a9-86cb-aa1ab87d59cb")
-		(property "Sheetname" "WATCHDOG"
-			(at 21.59 97.0784 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "../avionics_board/WATCHDOG.kicad_sch"
-			(at 21.59 114.2496 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "VDD" output
-			(at 52.07 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "233bee3e-ba82-4cc6-a281-e3be7e795f42")
-		)
-		(pin "VSS" output
-			(at 52.07 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "7987ad22-d7ec-4ff5-ae62-2b250cd3c2c5")
-		)
-		(pin "RST" output
-			(at 52.07 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "835aaaa5-ca8d-4de6-8629-3f517bc05d0f")
-		)
-		(pin "DONE" input
-			(at 52.07 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "3c67ea39-bcc4-4ffa-8981-54491c032f48")
-		)
-		(pin "WAKE" output
-			(at 52.07 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "d00a6047-252a-45c5-bae3-d9437ca9ade1")
-		)
-		(instances
-			(project "sci_board"
-				(path "/b4b2c88d-f6cd-4e60-862d-e21f68728580/840799ac-4fe6-4a8e-96a2-299affeec8e4"
-					(page "19")
 				)
 			)
 		)

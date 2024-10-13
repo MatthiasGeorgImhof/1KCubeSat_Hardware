@@ -97,7 +97,7 @@
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
         "silk_edge_clearance": "warning",
-        "silk_over_copper": "ignore",
+        "silk_over_copper": "warning",
         "silk_overlap": "warning",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "ignore",
@@ -2192,12 +2192,8 @@
       "OSC32_TCXO"
     ],
     [
-      "f8fd9467-fdd1-43a9-86cb-aa1ab87d59cb",
-      "WATCHDOG"
-    ],
-    [
       "be725391-4517-4a91-8537-5b0e0ace46a2",
-      "RESET"
+      "RESET_ST"
     ],
     [
       "9ad2e03f-9236-48b3-ba37-0d7f891d93a5",
@@ -2214,6 +2210,10 @@
     [
       "7fde3d19-3e51-4869-ba44-af6d0a67b762",
       "Power Regulator MP3416"
+    ],
+    [
+      "bc095972-e013-4615-9f72-847fc40745b3",
+      "RESET"
     ],
     [
       "2f5a2990-2dc0-472a-952a-1bfd830a3aba",
