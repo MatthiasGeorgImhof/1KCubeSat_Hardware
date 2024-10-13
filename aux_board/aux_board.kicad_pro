@@ -2196,8 +2196,16 @@
       "Regulator 5V"
     ],
     [
+      "a5e0a0bc-1155-4861-b0e5-50e548be6dc2",
+      "BOOT"
+    ],
+    [
       "180ab09f-8202-4a23-a970-ad767a3abcbf",
       "Regulator 4V2"
+    ],
+    [
+      "ff5fe26c-ac2c-4dc8-9dc9-af4e82d95eed",
+      "RESET"
     ],
     [
       "c6f75225-fda9-49b7-af41-6a3b5c80f9a2",

@@ -1181,11 +1181,11 @@
 					(unit 1)
 				)
 				(path "/85134265-2435-454a-99c4-e49d8e69c5c2/89862a4b-05be-454b-946e-6c4f5a4f01a7"
-					(reference "R28")
+					(reference "R27")
 					(unit 1)
 				)
 				(path "/85134265-2435-454a-99c4-e49d8e69c5c2/c6f75225-fda9-49b7-af41-6a3b5c80f9a2"
-					(reference "R30")
+					(reference "R31")
 					(unit 1)
 				)
 			)
@@ -1381,11 +1381,11 @@
 			)
 			(project "aux_board"
 				(path "/85134265-2435-454a-99c4-e49d8e69c5c2/180ab09f-8202-4a23-a970-ad767a3abcbf"
-					(reference "C35")
+					(reference "C34")
 					(unit 1)
 				)
 				(path "/85134265-2435-454a-99c4-e49d8e69c5c2/89862a4b-05be-454b-946e-6c4f5a4f01a7"
-					(reference "C32")
+					(reference "C31")
 					(unit 1)
 				)
 				(path "/85134265-2435-454a-99c4-e49d8e69c5c2/c6f75225-fda9-49b7-af41-6a3b5c80f9a2"
@@ -1586,11 +1586,11 @@
 			)
 			(project "aux_board"
 				(path "/85134265-2435-454a-99c4-e49d8e69c5c2/180ab09f-8202-4a23-a970-ad767a3abcbf"
-					(reference "C33")
+					(reference "C32")
 					(unit 1)
 				)
 				(path "/85134265-2435-454a-99c4-e49d8e69c5c2/89862a4b-05be-454b-946e-6c4f5a4f01a7"
-					(reference "C30")
+					(reference "C29")
 					(unit 1)
 				)
 				(path "/85134265-2435-454a-99c4-e49d8e69c5c2/c6f75225-fda9-49b7-af41-6a3b5c80f9a2"
@@ -1791,11 +1791,11 @@
 			)
 			(project "aux_board"
 				(path "/85134265-2435-454a-99c4-e49d8e69c5c2/180ab09f-8202-4a23-a970-ad767a3abcbf"
-					(reference "C34")
+					(reference "C33")
 					(unit 1)
 				)
 				(path "/85134265-2435-454a-99c4-e49d8e69c5c2/89862a4b-05be-454b-946e-6c4f5a4f01a7"
-					(reference "C31")
+					(reference "C30")
 					(unit 1)
 				)
 				(path "/85134265-2435-454a-99c4-e49d8e69c5c2/c6f75225-fda9-49b7-af41-6a3b5c80f9a2"

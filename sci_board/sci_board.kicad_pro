@@ -2140,6 +2140,10 @@
       "CAN Transceiver1"
     ],
     [
+      "6b5440ce-79ea-4c41-89e9-7a3077535944",
+      "USB Connector"
+    ],
+    [
       "21d0e59e-a5df-4633-9634-c7d789255f22",
       "Camera_A"
     ],
@@ -2174,10 +2178,6 @@
     [
       "b65d9c5b-bcd6-4ca1-83d4-ac547dcb4ba6",
       "Thermal Imager"
-    ],
-    [
-      "bbe2d6c4-88bb-480e-8557-ab6dc65fa807",
-      "USB Connector"
     ],
     [
       "5e5b27f8-7a4c-45d0-95f8-aff71797fcd3",

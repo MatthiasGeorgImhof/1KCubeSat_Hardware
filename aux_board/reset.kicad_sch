@@ -2,9 +2,145 @@
 	(version 20231120)
 	(generator "eeschema")
 	(generator_version "8.0")
-	(uuid "b56518b6-f57c-48ce-9691-9ee61f7f4ad6")
+	(uuid "df91913b-1161-4963-8dda-fe9f2bc0383e")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Device:C"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:R"
 			(pin_numbers hide)
 			(pin_names
@@ -126,7 +262,7 @@
 				)
 			)
 		)
-		(symbol "Project:EVP-AA602W"
+		(symbol "EVP-AA602W_1"
 			(pin_names
 				(offset 0.254)
 			)
@@ -204,7 +340,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "EVP-AA602W_0_1"
+			(symbol "EVP-AA602W_1_0_1"
 				(polyline
 					(pts
 						(xy 7.62 -5.08) (xy 15.24 -5.08)
@@ -443,7 +579,7 @@
 					)
 				)
 			)
-			(symbol "EVP-AA602W_1_1"
+			(symbol "EVP-AA602W_1_1_1"
 				(pin passive line
 					(at 0 0 0)
 					(length 7.62)
@@ -520,32 +656,94 @@
 		)
 	)
 	(junction
-		(at 163.83 88.265)
+		(at 165.735 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "ade9d8ed-9ca3-4dbb-bee5-627dc3c62300")
+		(uuid "00d6ba81-dba8-4e00-8252-b557ed148513")
+	)
+	(junction
+		(at 165.735 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1c744139-7693-4ef9-83c5-8b059362a96d")
+	)
+	(junction
+		(at 154.94 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8d7163d1-92cf-4a19-a9b0-76f5ebe56d0b")
 	)
 	(no_connect
-		(at 140.97 85.725)
-		(uuid "9121744d-9ff3-4acb-9e7e-4425ae599aea")
+		(at 132.08 91.44)
+		(uuid "1b6dc3a0-14d0-47fd-934c-9accf82003d3")
 	)
 	(no_connect
-		(at 140.97 88.265)
-		(uuid "96c8d19a-933f-454a-a043-015d599ce15e")
+		(at 132.08 93.98)
+		(uuid "3bc7d77e-b206-4e0d-9b56-00e60750ee18")
 	)
 	(wire
 		(pts
-			(xy 170.815 88.265) (xy 163.83 88.265)
+			(xy 154.94 93.98) (xy 154.94 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3a92749b-834c-4ba3-b4dc-fb2e59942e60")
+		(uuid "4c4f604e-3535-4587-9270-8af23cbd6221")
+	)
+	(wire
+		(pts
+			(xy 165.735 96.52) (xy 170.18 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64afb7f8-64a2-4a2b-a9b9-ff4aa865da70")
+	)
+	(wire
+		(pts
+			(xy 154.94 96.52) (xy 165.735 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b2f1b6a-6403-4506-9769-27f465498538")
+	)
+	(wire
+		(pts
+			(xy 170.18 88.9) (xy 165.735 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "849e77eb-117f-4374-8b22-748899da572c")
+	)
+	(wire
+		(pts
+			(xy 154.94 88.9) (xy 154.94 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9b88fa2-7ed8-4026-aed6-707f77f61aa0")
+	)
+	(wire
+		(pts
+			(xy 154.94 88.9) (xy 165.735 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5915e65-10a0-4b6b-bd97-0661e403bfb9")
 	)
 	(hierarchical_label "VIO"
 		(shape input)
-		(at 163.83 85.725 0)
+		(at 154.94 81.28 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -553,11 +751,11 @@
 			)
 			(justify left)
 		)
-		(uuid "1366b9ee-fce3-4825-b085-f7313ded03aa")
+		(uuid "4f7bba75-e28e-4997-8557-7408eb68a925")
 	)
-	(hierarchical_label "BOOT"
+	(hierarchical_label "RESET"
 		(shape output)
-		(at 170.815 88.265 0)
+		(at 170.18 88.9 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -565,51 +763,297 @@
 			)
 			(justify left)
 		)
-		(uuid "71143243-d53c-4aee-b012-254064242621")
+		(uuid "9fe74a33-fe53-4968-b155-50e0f53393ad")
 	)
 	(hierarchical_label "GND"
 		(shape input)
-		(at 163.83 95.885 180)
+		(at 170.18 96.52 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "eab12026-0504-4b77-a9dd-6de16137c420")
+		(uuid "f522c8e4-8311-4d62-9ba2-8396b6ebf23e")
 	)
 	(symbol
-		(lib_id "Project:EVP-AA602W")
-		(at 163.83 85.725 0)
-		(mirror y)
+		(lib_id "Device:C")
+		(at 165.735 92.71 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "47eb6e7f-2c38-4a39-b662-b73be716bbf4")
-		(property "Reference" "SW1"
-			(at 154.686 92.583 0)
+		(uuid "1d0677d8-4065-42bf-9520-79537a748d20")
+		(property "Reference" "C35"
+			(at 158.115 91.44 0)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 				(justify left)
 			)
 		)
-		(property "Value" "EVP-AA602W"
-			(at 158.75 80.645 0)
+		(property "Value" "100nF"
+			(at 158.115 93.98 0)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+			(at 166.7002 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R61E104KA87-01.pdf"
+			(at 165.735 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 165.735 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "25"
+			(at 165.735 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "GRM155R61E104KA87D"
+			(at 165.735 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Note" ""
+			(at 165.735 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "10"
+			(at 165.735 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Load Capacitance" ""
+			(at 165.735 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Amps" ""
+			(at 165.735 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata"
+			(at 165.735 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 165.735 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 165.735 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufactorer" ""
+			(at 165.735 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 165.735 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 165.735 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0c71a8ad-c9aa-4781-b6d2-94cf7f444ae2")
+		)
+		(pin "1"
+			(uuid "4f3cadb7-a085-4604-b99f-c336419555f3")
+		)
+		(instances
+			(project "aux_board"
+				(path "/85134265-2435-454a-99c4-e49d8e69c5c2/490a0c5b-9225-4953-ad7a-fe6abb29cde0/ff5fe26c-ac2c-4dc8-9dc9-af4e82d95eed"
+					(reference "C35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 154.94 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2292b985-5f7d-40e9-9bdf-b470484ab417")
+		(property "Reference" "R30"
+			(at 157.48 83.8199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100K"
+			(at 157.48 86.3599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+			(at 153.162 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 154.94 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 154.94 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1c6efc40-02fe-4a49-a3b0-221cbadfd5bc")
+		)
+		(pin "1"
+			(uuid "3cd15019-378a-41c7-8565-dac85a172ef2")
+		)
+		(instances
+			(project ""
+				(path "/85134265-2435-454a-99c4-e49d8e69c5c2/490a0c5b-9225-4953-ad7a-fe6abb29cde0/ff5fe26c-ac2c-4dc8-9dc9-af4e82d95eed"
+					(reference "R30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "EVP-AA602W_1")
+		(lib_id "Project:EVP-AA602W")
+		(at 132.08 93.98 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5134dd89-6b33-40d6-97b0-da3078b9631c")
+		(property "Reference" "SW2"
+			(at 143.51 83.82 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "EVP-AA602W"
+			(at 143.51 86.36 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
 		(property "Footprint" "Project:EVP602AA"
-			(at 163.83 85.725 0)
+			(at 132.08 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -619,7 +1063,7 @@
 			)
 		)
 		(property "Datasheet" "https://www3.panasonic.biz/ac/cdn/e/control/switch/light-touch/catalog/sw_lt_eng_3529s.pdf"
-			(at 163.83 85.725 0)
+			(at 132.08 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -629,7 +1073,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 163.83 85.725 0)
+			(at 132.08 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -637,138 +1081,8 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "EVP-AA602W"
-			(at 163.83 85.725 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Alt" ""
-			(at 163.83 85.725 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Note" ""
-			(at 163.83 85.725 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Panasonic"
-			(at 163.83 85.725 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "5641d50f-c240-4850-8438-9a97353c2a23")
-		)
-		(pin "2"
-			(uuid "309ee8e3-7ef7-4ffb-9f87-0bc7213a0f6d")
-		)
-		(pin "3"
-			(uuid "cc7b44b1-035d-4a89-a3af-0b3eb41d1833")
-		)
-		(pin "1"
-			(uuid "1b8d739a-db96-465d-91bd-81d7b347a3fb")
-		)
-		(instances
-			(project "openlst-hw"
-				(path "/85134265-2435-454a-99c4-e49d8e69c5c2/490a0c5b-9225-4953-ad7a-fe6abb29cde0/a5e0a0bc-1155-4861-b0e5-50e548be6dc2"
-					(reference "SW1")
-					(unit 1)
-				)
-			)
-			(project "openlst-hw"
-				(path "/a863a5ec-a5d4-4f54-be53-e8c01d5e3ac4/53f12969-e593-459a-9671-cc23a5a9aea0/f4ff56ce-2fa2-4b99-a709-c113709260c1/286e6e66-19a5-4c55-b42f-49aa146a8656"
-					(reference "SW1")
-					(unit 1)
-				)
-			)
-			(project "sci_board"
-				(path "/b4b2c88d-f6cd-4e60-862d-e21f68728580/840799ac-4fe6-4a8e-96a2-299affeec8e4/9ad2e03f-9236-48b3-ba37-0d7f891d93a5"
-					(reference "SW1")
-					(unit 1)
-				)
-			)
-			(project "AVIONICS_BOARD"
-				(path "/f6cc00ab-17f1-4973-862f-7ac95fe70668/00000000-0000-0000-0000-00005ea31c93/ce6e3ce3-97e2-453f-9a1f-2a164dd1fcec"
-					(reference "SW3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 163.83 92.075 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6cfd679b-b57e-4aaa-b298-337246fa8c26")
-		(property "Reference" "R28"
-			(at 165.735 90.8049 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100K"
-			(at 165.735 93.3449 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
-			(at 162.052 92.075 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
-			(at 163.83 92.075 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 163.83 92.075 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" "RC0402FR-07100KL"
-			(at 163.83 92.075 0)
+		(property "Load Capacitance" ""
+			(at 132.08 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -777,7 +1091,7 @@
 			)
 		)
 		(property "Amps" ""
-			(at 163.83 92.075 0)
+			(at 132.08 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -785,8 +1099,8 @@
 				(hide yes)
 			)
 		)
-		(property "Tolerance" "1"
-			(at 163.83 92.075 0)
+		(property "Manufacturer" "Panasonic"
+			(at 132.08 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -794,8 +1108,8 @@
 				(hide yes)
 			)
 		)
-		(property "Alt" ""
-			(at 163.83 92.075 0)
+		(property "Part Number" "EVP-AA602W"
+			(at 132.08 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -803,8 +1117,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "YAGEO"
-			(at 163.83 92.075 0)
+		(property "MANUFACTURER" ""
+			(at 132.08 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -812,8 +1126,8 @@
 				(hide yes)
 			)
 		)
-		(property "Note" "generic pullup/down"
-			(at 163.83 92.075 0)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 132.08 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -821,34 +1135,49 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "5e653474-2095-419b-a488-9b09d1ade7e4")
+		(property "Manufactorer" ""
+			(at 132.08 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 132.08 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 132.08 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "8215ac19-822c-41e8-92e7-3156c951ad9c")
 		)
 		(pin "1"
-			(uuid "719bda14-fe5e-45f5-83c7-ff29239ba490")
+			(uuid "15b5ad48-8393-46a6-86a2-23f094e0c310")
+		)
+		(pin "2"
+			(uuid "bab734e3-f798-4881-81d4-ac9153567a07")
+		)
+		(pin "3"
+			(uuid "522631cb-ed09-4bd4-a4e4-92aa8735993c")
 		)
 		(instances
-			(project "openlst-hw"
-				(path "/85134265-2435-454a-99c4-e49d8e69c5c2/490a0c5b-9225-4953-ad7a-fe6abb29cde0/a5e0a0bc-1155-4861-b0e5-50e548be6dc2"
-					(reference "R28")
-					(unit 1)
-				)
-			)
-			(project "openlst-hw"
-				(path "/a863a5ec-a5d4-4f54-be53-e8c01d5e3ac4/53f12969-e593-459a-9671-cc23a5a9aea0/f4ff56ce-2fa2-4b99-a709-c113709260c1/286e6e66-19a5-4c55-b42f-49aa146a8656"
-					(reference "R38")
-					(unit 1)
-				)
-			)
-			(project "sci_board"
-				(path "/b4b2c88d-f6cd-4e60-862d-e21f68728580/840799ac-4fe6-4a8e-96a2-299affeec8e4/9ad2e03f-9236-48b3-ba37-0d7f891d93a5"
-					(reference "R35")
-					(unit 1)
-				)
-			)
-			(project "AVIONICS_BOARD"
-				(path "/f6cc00ab-17f1-4973-862f-7ac95fe70668/00000000-0000-0000-0000-00005ea31c93/ce6e3ce3-97e2-453f-9a1f-2a164dd1fcec"
-					(reference "R41")
+			(project "aux_board"
+				(path "/85134265-2435-454a-99c4-e49d8e69c5c2/490a0c5b-9225-4953-ad7a-fe6abb29cde0/ff5fe26c-ac2c-4dc8-9dc9-af4e82d95eed"
+					(reference "SW2")
 					(unit 1)
 				)
 			)
