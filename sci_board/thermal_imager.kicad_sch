@@ -304,7 +304,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c08c9aa7-d7ef-41ff-aa99-74c8b7641723")
 		(property "Reference" "J7"
@@ -353,6 +353,24 @@
 			)
 		)
 		(property "Note" ""
+			(at 53.34 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "generic"
+			(at 53.34 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "generic"
 			(at 53.34 31.75 0)
 			(effects
 				(font

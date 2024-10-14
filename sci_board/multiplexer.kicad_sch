@@ -1429,6 +1429,16 @@
 		)
 		(uuid "f634e3b7-e97c-422f-8efd-473cf68d97d7")
 	)
+	(text "INPUTS OUTPUTS\nB A    Y0 Y1 Y2 Y3\nL L    L  H  H  H\nL H    H  L  H  H\nH L    H  H  L  H\nH H    H  H  H  L"
+		(exclude_from_sim no)
+		(at 261.62 104.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4e089c76-9a31-4f1b-a21c-87b08450fcd1")
+	)
 	(hierarchical_label "PWRDN"
 		(shape input)
 		(at 109.22 85.725 180)

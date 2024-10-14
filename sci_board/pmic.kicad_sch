@@ -3739,7 +3739,7 @@
 		(uuid "9fa69dca-a174-48f8-a1b2-cb97487c9b26")
 	)
 	(no_connect
-		(at 193.04 90.17)
+		(at 210.185 85.09)
 		(uuid "aaf31f40-1add-42e7-b5de-f876caa6b58f")
 	)
 	(no_connect
@@ -7578,7 +7578,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "67e86740-7b67-4c30-86d7-9f10342026d8")
 		(property "Reference" "J1"
@@ -7636,6 +7636,24 @@
 			)
 		)
 		(property "Color" ""
+			(at 248.92 100.965 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "generic"
+			(at 248.92 100.965 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "generic"
 			(at 248.92 100.965 0)
 			(effects
 				(font
@@ -9360,12 +9378,12 @@
 			(uuid "3981f7f8-b1b3-4a85-b342-2346d4b436ae")
 		)
 		(pin "VBUS1" output
-			(at 193.04 90.17 180)
+			(at 210.185 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 			(uuid "3f8e36af-332e-40c2-9451-acc98a603105")
 		)

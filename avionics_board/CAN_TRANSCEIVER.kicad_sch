@@ -1197,17 +1197,6 @@
 		)
 		(uuid "f97e481c-ebb4-4bb0-b951-32c5200224da")
 	)
-	(text "D = CAN transmit data input, also called TXD, driver input\nR = CAN receive data output, also called RXD, receiver output\n"
-		(exclude_from_sim no)
-		(at 81.28 60.96 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d92406fb-9b17-4ecc-af68-902a0a9ed33e")
-	)
 	(hierarchical_label "CAN_RX"
 		(shape output)
 		(at 91.44 88.9 180)
@@ -1409,7 +1398,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 165.1 87.63 0)
 			(effects
 				(font
@@ -1594,7 +1583,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 165.1 95.25 0)
 			(effects
 				(font
@@ -1742,7 +1731,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000602dc032")
 		(property "Reference" "D6"
 			(at 193.04 85.725 90)
@@ -1779,7 +1768,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "TVS DIODE 24VWM 44VC SOT23-3"
 			(at 193.04 91.44 0)
 			(effects
 				(font
@@ -1967,7 +1956,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 175.26 91.44 0)
 			(effects
 				(font
@@ -1976,7 +1965,7 @@
 				(hide yes)
 			)
 		)
-		(property "Voltage" "16"
+		(property "Voltage" "50"
 			(at 175.26 97.155 90)
 			(effects
 				(font
@@ -2021,7 +2010,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Number" "GRM155R61C473KA01D"
+		(property "Part Number" "GRM155R61H472KA01D"
 			(at 175.26 91.44 0)
 			(effects
 				(font
@@ -2161,7 +2150,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 105.41 125.73 0)
 			(effects
 				(font

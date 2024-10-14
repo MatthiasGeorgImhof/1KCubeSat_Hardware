@@ -4163,7 +4163,7 @@
 	)
 	(hierarchical_label "VBUS3"
 		(shape output)
-		(at 25.4 119.38 180)
+		(at 27.305 113.03 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4367,7 +4367,7 @@
 	)
 	(hierarchical_label "GND"
 		(shape input)
-		(at 26.67 142.24 180)
+		(at 26.67 141.605 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4412,18 +4412,6 @@
 			(justify right)
 		)
 		(uuid "8d8d3b32-1db8-40ec-a330-7e8ee4ccedf1")
-	)
-	(hierarchical_label "5V"
-		(shape input)
-		(at 26.67 133.35 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "93386192-1848-4af6-bbf9-3ef49307d84e")
 	)
 	(hierarchical_label "CAN1_H"
 		(shape bidirectional)
@@ -4571,7 +4559,7 @@
 	)
 	(hierarchical_label "GND"
 		(shape input)
-		(at 25.4 121.92 180)
+		(at 27.305 120.65 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4580,18 +4568,6 @@
 			(justify right)
 		)
 		(uuid "dcd30dde-4da1-4ef2-bb07-16de61db8b25")
-	)
-	(hierarchical_label "5V"
-		(shape input)
-		(at 25.4 113.03 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "e2d2ab48-7b0f-4b17-9350-e63b1def0101")
 	)
 	(hierarchical_label "EXTI_5"
 		(shape input)
@@ -4607,7 +4583,7 @@
 	)
 	(hierarchical_label "VBUS2"
 		(shape output)
-		(at 26.67 139.7 180)
+		(at 26.67 133.985 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4674,7 +4650,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 180.34 40.64 0)
 			(effects
 				(font
@@ -4738,33 +4714,6 @@
 			)
 		)
 		(property "Manufacturer" "Murata"
-			(at 180.34 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 180.34 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 180.34 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufactorer" ""
 			(at 180.34 40.64 0)
 			(effects
 				(font
@@ -4851,7 +4800,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 172.72 40.64 0)
 			(effects
 				(font
@@ -4915,33 +4864,6 @@
 			)
 		)
 		(property "Manufacturer" "Murata"
-			(at 172.72 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 172.72 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 172.72 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufactorer" ""
 			(at 172.72 40.64 0)
 			(effects
 				(font
@@ -5028,7 +4950,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 142.875 40.64 0)
 			(effects
 				(font
@@ -5092,33 +5014,6 @@
 			)
 		)
 		(property "Manufacturer" "Murata"
-			(at 142.875 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 142.875 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 142.875 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufactorer" ""
 			(at 142.875 40.64 0)
 			(effects
 				(font
@@ -5205,7 +5100,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 187.96 40.64 0)
 			(effects
 				(font
@@ -5269,33 +5164,6 @@
 			)
 		)
 		(property "Manufacturer" "Murata"
-			(at 187.96 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 187.96 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 187.96 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufactorer" ""
 			(at 187.96 40.64 0)
 			(effects
 				(font
@@ -5382,7 +5250,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 165.1 40.64 0)
 			(effects
 				(font
@@ -5446,33 +5314,6 @@
 			)
 		)
 		(property "Manufacturer" "Murata"
-			(at 165.1 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 165.1 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 165.1 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufactorer" ""
 			(at 165.1 40.64 0)
 			(effects
 				(font
@@ -5559,7 +5400,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 149.86 40.64 0)
 			(effects
 				(font
@@ -5623,33 +5464,6 @@
 			)
 		)
 		(property "Manufacturer" "Murata"
-			(at 149.86 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 149.86 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 149.86 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufactorer" ""
 			(at 149.86 40.64 0)
 			(effects
 				(font
@@ -5744,6 +5558,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "generic"
+			(at 37.465 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "generic"
+			(at 37.465 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "53678281-f63a-4bd2-bca9-546c6d441541")
 		)
@@ -5813,7 +5645,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 135.255 40.64 0)
 			(effects
 				(font
@@ -5877,33 +5709,6 @@
 			)
 		)
 		(property "Manufacturer" "Murata"
-			(at 135.255 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 135.255 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 135.255 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufactorer" ""
 			(at 135.255 40.64 0)
 			(effects
 				(font
@@ -5990,7 +5795,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 195.58 40.64 0)
 			(effects
 				(font
@@ -6054,33 +5859,6 @@
 			)
 		)
 		(property "Manufacturer" "Murata"
-			(at 195.58 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 195.58 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 195.58 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufactorer" ""
 			(at 195.58 40.64 0)
 			(effects
 				(font
@@ -6167,6 +5945,24 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x05, script generated"
+			(at 59.69 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "generic"
+			(at 59.69 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "generic"
 			(at 59.69 181.61 0)
 			(effects
 				(font
@@ -6283,33 +6079,6 @@
 			)
 		)
 		(property "Part Number" "STM32L496RGT6"
-			(at 208.28 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 208.28 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 208.28 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufactorer" ""
 			(at 208.28 96.52 0)
 			(effects
 				(font
@@ -6591,7 +6360,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 157.48 40.64 0)
 			(effects
 				(font
@@ -6655,33 +6424,6 @@
 			)
 		)
 		(property "Manufacturer" "Murata"
-			(at 157.48 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 157.48 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 157.48 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufactorer" ""
 			(at 157.48 40.64 0)
 			(effects
 				(font
@@ -7010,8 +6752,8 @@
 		)
 	)
 	(sheet
-		(at 25.4 111.76)
-		(size 22.86 11.43)
+		(at 27.305 111.76)
+		(size 20.955 10.16)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -7022,7 +6764,7 @@
 		)
 		(uuid "5590b01a-e5bf-4b57-b49e-9bcea37f7d3d")
 		(property "Sheetname" "FTDI"
-			(at 25.4 111.0484 0)
+			(at 27.305 111.0484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7031,7 +6773,7 @@
 			)
 		)
 		(property "Sheetfile" "ftdi.kicad_sch"
-			(at 25.4 124.4096 0)
+			(at 27.305 122.5046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7040,7 +6782,7 @@
 			)
 		)
 		(pin "GND" input
-			(at 25.4 121.92 180)
+			(at 27.305 120.65 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7048,16 +6790,6 @@
 				(justify left)
 			)
 			(uuid "84d1585a-b669-4a4e-9865-6ae328ef196b")
-		)
-		(pin "VCC" input
-			(at 25.4 113.03 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "be5c4e68-241a-4b60-84bd-9c5376e0029a")
 		)
 		(pin "CTS" input
 			(at 48.26 120.65 0)
@@ -7099,15 +6831,15 @@
 			)
 			(uuid "506d5db5-f0e5-4217-b112-2eb7fe47a795")
 		)
-		(pin "VBUS" output
-			(at 25.4 119.38 180)
+		(pin "VUSB" output
+			(at 27.305 113.03 180)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "e81bdb66-f8b8-466e-88fe-a70994cc287f")
+			(uuid "91565384-f9ba-41a8-ab44-5298ee24f5d1")
 		)
 		(instances
 			(project "aux_board"
@@ -7413,7 +7145,7 @@
 			)
 		)
 		(pin "GND" input
-			(at 26.67 142.24 180)
+			(at 26.67 141.605 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7421,26 +7153,6 @@
 				(justify left)
 			)
 			(uuid "e09cf9f3-6c61-47e5-8e26-a2ca7a4bec11")
-		)
-		(pin "VCC" input
-			(at 26.67 133.35 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "b1cc6f19-c302-4ed9-8188-a44c7f0c42de")
-		)
-		(pin "VBUS" output
-			(at 26.67 139.7 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "0e51edc5-9bbf-4528-8140-e0790e5fd677")
 		)
 		(pin "CTS" input
 			(at 48.26 139.065 0)
@@ -7481,6 +7193,16 @@
 				(justify right)
 			)
 			(uuid "8716debb-ed84-4356-8979-cc3915d17ea1")
+		)
+		(pin "VUSB" output
+			(at 26.67 133.985 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "c4c39edf-d792-4f9f-b2b4-93802a37652a")
 		)
 		(instances
 			(project "aux_board"

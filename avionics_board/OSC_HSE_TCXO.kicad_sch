@@ -460,7 +460,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "XTAL OSC XO 10MHZ CMOS SMD"
 			(at 154.305 110.49 0)
 			(effects
 				(font
@@ -598,7 +598,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 182.88 111.76 0)
 			(effects
 				(font

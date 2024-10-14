@@ -628,7 +628,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SWITCH TACTILE SPST-NO 0.02A 15V"
 			(at 163.83 85.725 0)
 			(effects
 				(font
@@ -758,7 +758,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 163.83 92.075 0)
 			(effects
 				(font
