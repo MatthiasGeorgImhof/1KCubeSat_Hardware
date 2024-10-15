@@ -1429,13 +1429,25 @@
 		)
 		(uuid "f634e3b7-e97c-422f-8efd-473cf68d97d7")
 	)
-	(text "INPUTS OUTPUTS\nB A    Y0 Y1 Y2 Y3\nL L    L  H  H  H\nL H    H  L  H  H\nH L    H  H  L  H\nH H    H  H  H  L"
+	(text "S1 S0 SWITCH STATUS\nL  L  D1/D2 connected to S1B/S2B\nL  H  D1/D2 connected to S1C/S2C\nH  L  D1/D2 connected to S1A/S2A\nH  H  All switches in High-Z"
 		(exclude_from_sim no)
-		(at 261.62 104.14 0)
+		(at 243.84 128.27 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
+			(justify left)
+		)
+		(uuid "38f10146-a188-4ab7-b7f3-3282cd71d938")
+	)
+	(text "S1 S0   OUTPUTS       NOUTPUT\nB  A    Y0 Y1 Y2 Y3   X0 X1 X2 X3\nL  L    L  H  H  H    H  L  L  L\nL  H    H  L  H  H    L  H  L  L\nH  L    H  H  L  H    L  L  H  L\nH  H    H  H  H  L    L  L  L  H"
+		(exclude_from_sim no)
+		(at 243.84 105.41 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
 		)
 		(uuid "4e089c76-9a31-4f1b-a21c-87b08450fcd1")
 	)
@@ -1667,7 +1679,7 @@
 		)
 		(uuid "2a5eb96b-a037-4f1b-936c-150f67ce2fe8")
 	)
-	(hierarchical_label "EN_A"
+	(hierarchical_label "EN_B"
 		(shape output)
 		(at 266.065 59.055 0)
 		(fields_autoplaced yes)
@@ -1919,7 +1931,7 @@
 		)
 		(uuid "524f125e-0521-49d1-b451-9c1edb546d12")
 	)
-	(hierarchical_label "EN_B"
+	(hierarchical_label "EN_C"
 		(shape output)
 		(at 265.43 73.66 0)
 		(fields_autoplaced yes)
@@ -2123,7 +2135,7 @@
 		)
 		(uuid "7685e8af-5dc2-4c50-9ba4-63c0b00fdde5")
 	)
-	(hierarchical_label "EN_C"
+	(hierarchical_label "EN_A"
 		(shape output)
 		(at 266.065 88.265 0)
 		(fields_autoplaced yes)
