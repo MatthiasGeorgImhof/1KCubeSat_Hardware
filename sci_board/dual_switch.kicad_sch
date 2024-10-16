@@ -330,12 +330,6 @@
 		)
 	)
 	(junction
-		(at 111.76 72.39)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "77964dc2-ad51-469f-b0ad-270f569e2cc2")
-	)
-	(junction
 		(at 182.245 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -636,18 +630,6 @@
 		)
 		(uuid "daafcae7-b338-4625-a2c6-fd829b883b97")
 	)
-	(hierarchical_label "VIN3"
-		(shape input)
-		(at 111.76 64.77 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "de823338-9c51-4904-9b5c-53c7407516df")
-	)
 	(hierarchical_label "GND"
 		(shape output)
 		(at 236.855 78.74 0)
@@ -917,11 +899,11 @@
 					(unit 1)
 				)
 				(path "/b4b2c88d-f6cd-4e60-862d-e21f68728580/5e5b27f8-7a4c-45d0-95f8-aff71797fcd3/3113fc14-4b9f-4852-8ddb-4c564d791d7f"
-					(reference "R27")
+					(reference "R29")
 					(unit 1)
 				)
 				(path "/b4b2c88d-f6cd-4e60-862d-e21f68728580/5e5b27f8-7a4c-45d0-95f8-aff71797fcd3/df99859d-8e37-4f21-a1c5-637d9e74b907"
-					(reference "R31")
+					(reference "R32")
 					(unit 1)
 				)
 			)
@@ -1039,120 +1021,6 @@
 				)
 				(path "/b4b2c88d-f6cd-4e60-862d-e21f68728580/5e5b27f8-7a4c-45d0-95f8-aff71797fcd3/df99859d-8e37-4f21-a1c5-637d9e74b907"
 					(reference "U8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 111.76 68.58 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cca74c65-70c9-4868-85c0-0ae4578dd73b")
-		(property "Reference" "R34"
-			(at 114.3 67.3099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100K"
-			(at 114.3 69.8499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
-			(at 109.982 68.58 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
-			(at 111.76 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 111.76 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "YAGEO"
-			(at 111.76 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Note" "INT pullup"
-			(at 111.76 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" "RC0402FR-07100KL"
-			(at 111.76 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "1"
-			(at 111.76 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "58839ea3-53db-4cbd-bb9c-d7b4f77fa477")
-		)
-		(pin "2"
-			(uuid "df7f244d-9036-4760-926f-146c8606f97e")
-		)
-		(instances
-			(project "sci_board"
-				(path "/b4b2c88d-f6cd-4e60-862d-e21f68728580/5e5b27f8-7a4c-45d0-95f8-aff71797fcd3/09c52fbd-a66a-456f-a3b3-a583ddfe7084"
-					(reference "R34")
-					(unit 1)
-				)
-				(path "/b4b2c88d-f6cd-4e60-862d-e21f68728580/5e5b27f8-7a4c-45d0-95f8-aff71797fcd3/3113fc14-4b9f-4852-8ddb-4c564d791d7f"
-					(reference "R26")
-					(unit 1)
-				)
-				(path "/b4b2c88d-f6cd-4e60-862d-e21f68728580/5e5b27f8-7a4c-45d0-95f8-aff71797fcd3/df99859d-8e37-4f21-a1c5-637d9e74b907"
-					(reference "R30")
 					(unit 1)
 				)
 			)
@@ -1379,11 +1247,11 @@
 					(unit 1)
 				)
 				(path "/b4b2c88d-f6cd-4e60-862d-e21f68728580/5e5b27f8-7a4c-45d0-95f8-aff71797fcd3/3113fc14-4b9f-4852-8ddb-4c564d791d7f"
-					(reference "R28")
+					(reference "R30")
 					(unit 1)
 				)
 				(path "/b4b2c88d-f6cd-4e60-862d-e21f68728580/5e5b27f8-7a4c-45d0-95f8-aff71797fcd3/df99859d-8e37-4f21-a1c5-637d9e74b907"
-					(reference "R32")
+					(reference "R33")
 					(unit 1)
 				)
 			)
@@ -1493,11 +1361,11 @@
 					(unit 1)
 				)
 				(path "/b4b2c88d-f6cd-4e60-862d-e21f68728580/5e5b27f8-7a4c-45d0-95f8-aff71797fcd3/3113fc14-4b9f-4852-8ddb-4c564d791d7f"
-					(reference "R29")
+					(reference "R31")
 					(unit 1)
 				)
 				(path "/b4b2c88d-f6cd-4e60-862d-e21f68728580/5e5b27f8-7a4c-45d0-95f8-aff71797fcd3/df99859d-8e37-4f21-a1c5-637d9e74b907"
-					(reference "R33")
+					(reference "R34")
 					(unit 1)
 				)
 			)

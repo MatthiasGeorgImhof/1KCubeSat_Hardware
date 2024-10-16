@@ -2008,7 +2008,7 @@
           "group_by": false,
           "label": "Voltage",
           "name": "Voltage",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -2056,6 +2056,36 @@
           "group_by": false,
           "label": "Color",
           "name": "Color",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MAXIMUM_PACKAGE_HEIGHT",
+          "name": "MAXIMUM_PACKAGE_HEIGHT",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "STANDARD",
+          "name": "STANDARD",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufactorer",
+          "name": "Manufactorer",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MANUFACTURER",
+          "name": "MANUFACTURER",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PARTREV",
+          "name": "PARTREV",
           "show": false
         }
       ],
@@ -2203,12 +2233,12 @@
       "CAN_TRANSCEIVER1"
     ],
     [
-      "be97d8a5-3a93-4a5f-bf78-e2fbafbd8fb2",
-      "CAN_TRANSCEIVER2"
-    ],
-    [
       "8a47ccc3-f8e0-403c-b9fa-fe30da676570",
       "USB"
+    ],
+    [
+      "be97d8a5-3a93-4a5f-bf78-e2fbafbd8fb2",
+      "CAN_TRANSCEIVER2"
     ],
     [
       "e4c7d165-22c3-4361-b1e3-58b5c990e540",

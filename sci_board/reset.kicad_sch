@@ -805,7 +805,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Project:EVP602AA"
+		(property "Footprint" "Common:EVP602AA"
 			(at 132.715 125.095 0)
 			(effects
 				(font
@@ -883,6 +883,12 @@
 			(uuid "32fe2cb1-ec9b-4003-8bea-aaa26d20b6e5")
 		)
 		(instances
+			(project "aux_board"
+				(path "/85134265-2435-454a-99c4-e49d8e69c5c2/490a0c5b-9225-4953-ad7a-fe6abb29cde0/ff5fe26c-ac2c-4dc8-9dc9-af4e82d95eed"
+					(reference "SW2")
+					(unit 1)
+				)
+			)
 			(project "sci_board"
 				(path "/b4b2c88d-f6cd-4e60-862d-e21f68728580/840799ac-4fe6-4a8e-96a2-299affeec8e4/bc095972-e013-4615-9f72-847fc40745b3"
 					(reference "SW2")
@@ -901,7 +907,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d58a8ff6-3ef8-49db-b6c1-347fa75ab55c")
-		(property "Reference" "R51"
+		(property "Reference" "R25"
 			(at 158.115 114.9349 0)
 			(effects
 				(font
@@ -989,6 +995,12 @@
 			(uuid "ca5d0a56-7fd2-4c08-852e-75745ab6ad54")
 		)
 		(instances
+			(project "aux_board"
+				(path "/85134265-2435-454a-99c4-e49d8e69c5c2/490a0c5b-9225-4953-ad7a-fe6abb29cde0/ff5fe26c-ac2c-4dc8-9dc9-af4e82d95eed"
+					(reference "R25")
+					(unit 1)
+				)
+			)
 			(project "sci_board"
 				(path "/b4b2c88d-f6cd-4e60-862d-e21f68728580/840799ac-4fe6-4a8e-96a2-299affeec8e4/bc095972-e013-4615-9f72-847fc40745b3"
 					(reference "R51")
@@ -1006,7 +1018,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "dc176fdd-29f9-4212-962c-b5bac4a4fc06")
-		(property "Reference" "C63"
+		(property "Reference" "C31"
 			(at 158.75 122.555 0)
 			(effects
 				(font
@@ -1121,6 +1133,12 @@
 			(uuid "7dca8230-dd92-4e9e-9790-37d9e5d66a58")
 		)
 		(instances
+			(project "aux_board"
+				(path "/85134265-2435-454a-99c4-e49d8e69c5c2/490a0c5b-9225-4953-ad7a-fe6abb29cde0/ff5fe26c-ac2c-4dc8-9dc9-af4e82d95eed"
+					(reference "C31")
+					(unit 1)
+				)
+			)
 			(project "sci_board"
 				(path "/b4b2c88d-f6cd-4e60-862d-e21f68728580/840799ac-4fe6-4a8e-96a2-299affeec8e4/bc095972-e013-4615-9f72-847fc40745b3"
 					(reference "C63")

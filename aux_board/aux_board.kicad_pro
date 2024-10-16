@@ -2077,6 +2077,24 @@
           "label": "PARTREV",
           "name": "PARTREV",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufactorer",
+          "name": "Manufactorer",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MAXIMUM_PACKAGE_HEIGHT",
+          "name": "MAXIMUM_PACKAGE_HEIGHT",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MANUFACTURER",
+          "name": "MANUFACTURER",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -2166,32 +2184,36 @@
       "USB1"
     ],
     [
-      "0066abd8-e7a1-446a-9d24-5e5cacb35a6b",
-      "Debug"
-    ],
-    [
       "84780269-b8cb-44bc-ab72-b0ed2668fd84",
       "OSC_HSE_TCXO"
-    ],
-    [
-      "89862a4b-05be-454b-946e-6c4f5a4f01a7",
-      "Regulator 5V"
     ],
     [
       "a5e0a0bc-1155-4861-b0e5-50e548be6dc2",
       "BOOT"
     ],
     [
-      "180ab09f-8202-4a23-a970-ad767a3abcbf",
-      "Regulator 4V2"
-    ],
-    [
       "ff5fe26c-ac2c-4dc8-9dc9-af4e82d95eed",
       "RESET"
     ],
     [
+      "0066abd8-e7a1-446a-9d24-5e5cacb35a6b",
+      "Debug"
+    ],
+    [
+      "21705b31-e71e-4020-a43e-3303465bf5fd",
+      "Regulator 3V4"
+    ],
+    [
       "c6f75225-fda9-49b7-af41-6a3b5c80f9a2",
       "Regulator 3V3"
+    ],
+    [
+      "180ab09f-8202-4a23-a970-ad767a3abcbf",
+      "Regulator 4V2"
+    ],
+    [
+      "89862a4b-05be-454b-946e-6c4f5a4f01a7",
+      "Regulator 5V"
     ]
   ],
   "text_variables": {}

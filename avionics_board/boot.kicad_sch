@@ -608,7 +608,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Project:EVP602AA"
+		(property "Footprint" "Common:EVP602AA"
 			(at 163.83 85.725 0)
 			(effects
 				(font
@@ -722,7 +722,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6cfd679b-b57e-4aaa-b298-337246fa8c26")
-		(property "Reference" "R28"
+		(property "Reference" "R24"
 			(at 165.735 90.8049 0)
 			(effects
 				(font
@@ -830,7 +830,7 @@
 		(instances
 			(project "openlst-hw"
 				(path "/85134265-2435-454a-99c4-e49d8e69c5c2/490a0c5b-9225-4953-ad7a-fe6abb29cde0/a5e0a0bc-1155-4861-b0e5-50e548be6dc2"
-					(reference "R28")
+					(reference "R24")
 					(unit 1)
 				)
 			)
@@ -848,7 +848,7 @@
 			)
 			(project "AVIONICS_BOARD"
 				(path "/f6cc00ab-17f1-4973-862f-7ac95fe70668/00000000-0000-0000-0000-00005ea31c93/ce6e3ce3-97e2-453f-9a1f-2a164dd1fcec"
-					(reference "R41")
+					(reference "R45")
 					(unit 1)
 				)
 			)

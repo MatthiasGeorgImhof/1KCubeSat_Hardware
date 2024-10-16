@@ -264,139 +264,12 @@
 				)
 			)
 		)
-		(symbol "Device:R"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 2.032 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "R"
-				(at 0 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at -1.778 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "R res resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_0_1"
-				(rectangle
-					(start -1.016 -2.54)
-					(end 1.016 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 	)
 	(junction
 		(at 116.84 109.855)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3723a9b2-7efc-4b45-90a4-a008ec6fc7ef")
-	)
-	(junction
-		(at 116.84 67.31)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ef7033f6-5821-442b-9d76-ee431f17a804")
 	)
 	(wire
 		(pts
@@ -450,16 +323,6 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 59.69) (xy 116.84 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "91cd1465-c51e-401c-9c09-c186a1143237")
-	)
-	(wire
-		(pts
 			(xy 98.425 72.39) (xy 97.155 72.39)
 		)
 		(stroke
@@ -480,6 +343,16 @@
 	)
 	(wire
 		(pts
+			(xy 116.84 67.31) (xy 116.84 109.855)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b685fbf6-d7cd-4efd-a236-0afc4f917c23")
+	)
+	(wire
+		(pts
 			(xy 98.425 69.85) (xy 97.155 69.85)
 		)
 		(stroke
@@ -487,16 +360,6 @@
 			(type default)
 		)
 		(uuid "bebdb7ce-5685-446f-9d75-7ca6c232aaac")
-	)
-	(wire
-		(pts
-			(xy 116.84 67.31) (xy 116.84 109.855)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c64019b6-24a9-412b-a4c2-d3152c6f467b")
 	)
 	(wire
 		(pts
@@ -1114,7 +977,7 @@
 	)
 	(hierarchical_label "*ACS_INT"
 		(shape input)
-		(at 116.84 68.58 0)
+		(at 116.84 67.31 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1280,18 +1143,6 @@
 		)
 		(uuid "ede57756-0d08-4b90-bafa-fe2e627f8237")
 	)
-	(hierarchical_label "PWR_LOGIC_IN"
-		(shape input)
-		(at 116.84 60.96 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "f0cc2112-49b3-49d6-8f41-43490b924eb0")
-	)
 	(hierarchical_label "GND"
 		(shape input)
 		(at 192.405 60.325 0)
@@ -1421,112 +1272,6 @@
 			(project "AVIONICS_BOARD"
 				(path "/f6cc00ab-17f1-4973-862f-7ac95fe70668/1f9ae17d-3f3e-4633-9b01-30c344473415"
 					(reference "J3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 116.84 63.5 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "630afd95-cd9e-4183-bfa3-8a048f7d9346")
-		(property "Reference" "R20"
-			(at 119.38 62.2299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100K"
-			(at 119.38 64.7699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
-			(at 115.062 63.5 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
-			(at 116.84 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 116.84 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Alt" ""
-			(at 116.84 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "YAGEO"
-			(at 116.84 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Part Number" "RC0402FR-07100KL"
-			(at 116.84 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "1"
-			(at 116.84 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9e0a565a-ba42-452d-beae-715c9340ab1a")
-		)
-		(pin "2"
-			(uuid "c5a42651-41ce-4491-9bdd-14f80c1d2984")
-		)
-		(instances
-			(project "AVIONICS_BOARD"
-				(path "/f6cc00ab-17f1-4973-862f-7ac95fe70668/1f9ae17d-3f3e-4633-9b01-30c344473415"
-					(reference "R20")
 					(unit 1)
 				)
 			)

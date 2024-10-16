@@ -1543,11 +1543,11 @@
 			)
 			(project "aux_board"
 				(path "/85134265-2435-454a-99c4-e49d8e69c5c2/490a0c5b-9225-4953-ad7a-fe6abb29cde0/44e1c238-c310-4adb-b8af-1649587fccbc"
-					(reference "R4")
+					(reference "R6")
 					(unit 1)
 				)
 				(path "/85134265-2435-454a-99c4-e49d8e69c5c2/490a0c5b-9225-4953-ad7a-fe6abb29cde0/79acd8f6-bf2c-49bf-bcdd-19906e40975b"
-					(reference "R6")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -1563,21 +1563,21 @@
 			)
 			(project "sci_board"
 				(path "/b4b2c88d-f6cd-4e60-862d-e21f68728580/1a2691c5-5723-4a0d-b1a6-0fb5069c9e03"
-					(reference "R10")
+					(reference "R13")
 					(unit 1)
 				)
 				(path "/b4b2c88d-f6cd-4e60-862d-e21f68728580/5e856d8a-328e-413a-92b7-9cd181b0cc6b"
-					(reference "R8")
+					(reference "R11")
 					(unit 1)
 				)
 			)
 			(project "AVIONICS_BOARD"
 				(path "/f6cc00ab-17f1-4973-862f-7ac95fe70668/00000000-0000-0000-0000-00005ea31c93/00000000-0000-0000-0000-00006310c570"
-					(reference "R34")
+					(reference "R38")
 					(unit 1)
 				)
 				(path "/f6cc00ab-17f1-4973-862f-7ac95fe70668/00000000-0000-0000-0000-00005ea31c93/be97d8a5-3a93-4a5f-bf78-e2fbafbd8fb2"
-					(reference "R36")
+					(reference "R42")
 					(unit 1)
 				)
 			)
@@ -1773,11 +1773,11 @@
 			)
 			(project "aux_board"
 				(path "/85134265-2435-454a-99c4-e49d8e69c5c2/490a0c5b-9225-4953-ad7a-fe6abb29cde0/44e1c238-c310-4adb-b8af-1649587fccbc"
-					(reference "R5")
+					(reference "R7")
 					(unit 1)
 				)
 				(path "/85134265-2435-454a-99c4-e49d8e69c5c2/490a0c5b-9225-4953-ad7a-fe6abb29cde0/79acd8f6-bf2c-49bf-bcdd-19906e40975b"
-					(reference "R7")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -1793,21 +1793,21 @@
 			)
 			(project "sci_board"
 				(path "/b4b2c88d-f6cd-4e60-862d-e21f68728580/1a2691c5-5723-4a0d-b1a6-0fb5069c9e03"
-					(reference "R11")
+					(reference "R14")
 					(unit 1)
 				)
 				(path "/b4b2c88d-f6cd-4e60-862d-e21f68728580/5e856d8a-328e-413a-92b7-9cd181b0cc6b"
-					(reference "R9")
+					(reference "R12")
 					(unit 1)
 				)
 			)
 			(project "AVIONICS_BOARD"
 				(path "/f6cc00ab-17f1-4973-862f-7ac95fe70668/00000000-0000-0000-0000-00005ea31c93/00000000-0000-0000-0000-00006310c570"
-					(reference "R35")
+					(reference "R39")
 					(unit 1)
 				)
 				(path "/f6cc00ab-17f1-4973-862f-7ac95fe70668/00000000-0000-0000-0000-00005ea31c93/be97d8a5-3a93-4a5f-bf78-e2fbafbd8fb2"
-					(reference "R37")
+					(reference "R43")
 					(unit 1)
 				)
 			)
