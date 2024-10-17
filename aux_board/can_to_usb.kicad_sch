@@ -4692,24 +4692,6 @@
 				(hide yes)
 			)
 		)
-		(property "PARTREV" ""
-			(at 180.34 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
-			(at 180.34 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "80762d1b-535f-4615-8e94-601ca1724bc3")
 		)
@@ -4834,24 +4816,6 @@
 			)
 		)
 		(property "Manufacturer" "Murata"
-			(at 172.72 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" ""
-			(at 172.72 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
 			(at 172.72 40.64 0)
 			(effects
 				(font
@@ -4992,24 +4956,6 @@
 				(hide yes)
 			)
 		)
-		(property "PARTREV" ""
-			(at 142.875 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
-			(at 142.875 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "5bb2997b-03a6-49f9-906b-1b355839121e")
 		)
@@ -5134,24 +5080,6 @@
 			)
 		)
 		(property "Manufacturer" "Murata"
-			(at 187.96 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" ""
-			(at 187.96 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
 			(at 187.96 40.64 0)
 			(effects
 				(font
@@ -5292,24 +5220,6 @@
 				(hide yes)
 			)
 		)
-		(property "PARTREV" ""
-			(at 165.1 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
-			(at 165.1 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "b3607473-2cff-401e-bb22-f98c3fc940d6")
 		)
@@ -5434,24 +5344,6 @@
 			)
 		)
 		(property "Manufacturer" "Murata"
-			(at 149.86 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" ""
-			(at 149.86 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
 			(at 149.86 40.64 0)
 			(effects
 				(font
@@ -5687,24 +5579,6 @@
 				(hide yes)
 			)
 		)
-		(property "PARTREV" ""
-			(at 135.255 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
-			(at 135.255 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "af546cca-9d0d-481e-99bc-4a5b874bc800")
 		)
@@ -5829,24 +5703,6 @@
 			)
 		)
 		(property "Manufacturer" "Murata"
-			(at 195.58 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" ""
-			(at 195.58 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
 			(at 195.58 40.64 0)
 			(effects
 				(font
@@ -6049,24 +5905,6 @@
 			)
 		)
 		(property "Part Number" "STM32L496RGT6"
-			(at 208.28 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" ""
-			(at 208.28 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
 			(at 208.28 96.52 0)
 			(effects
 				(font
@@ -6394,24 +6232,6 @@
 			)
 		)
 		(property "Manufacturer" "Murata"
-			(at 157.48 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" ""
-			(at 157.48 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
 			(at 157.48 40.64 0)
 			(effects
 				(font

@@ -37907,7 +37907,7 @@
 			(roundrect_rratio 0.25)
 			(net 3 "GND")
 			(pinfunction "VSS")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "0434a710-de4d-454a-afe5-d92cdda484ca")
 		)
 		(pad "48" smd roundrect
@@ -38067,7 +38067,7 @@
 			(roundrect_rratio 0.25)
 			(net 3 "GND")
 			(pinfunction "VSS")
-			(pintype "power_in")
+			(pintype "passive")
 			(uuid "e7e640e7-cd03-4b50-9df0-b0ecb4abab06")
 		)
 		(pad "64" smd roundrect

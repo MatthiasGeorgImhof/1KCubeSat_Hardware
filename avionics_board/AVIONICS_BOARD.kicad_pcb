@@ -30264,7 +30264,7 @@
 				)
 			)
 		)
-		(property "Value" "300K"
+		(property "Value" "330K"
 			(at 0 1.17 45)
 			(layer "F.Fab")
 			(uuid "21962253-5ce1-4595-b35e-43e360802d60")
@@ -30340,7 +30340,7 @@
 				)
 			)
 		)
-		(property "Part Number" "RC0402FR-07300KL"
+		(property "Part Number" "RC0402FR-07330KL"
 			(at 0 0 45)
 			(unlocked yes)
 			(layer "F.Fab")

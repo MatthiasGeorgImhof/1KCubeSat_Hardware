@@ -5,128 +5,7 @@
 	(uuid "bc855f5d-98f7-4ca5-ac76-77372628f79a")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Device:R"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 2.032 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "R"
-				(at 0 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at -1.778 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "R res resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_0_1"
-				(rectangle
-					(start -1.016 -2.54)
-					(end 1.016 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Project:10155435-00011LF"
+		(symbol "Common:10155435-00011LF"
 			(pin_names
 				(offset 1.016)
 			)
@@ -521,6 +400,127 @@
 				)
 			)
 		)
+		(symbol "Device:R"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 	)
 	(no_connect
 		(at 171.45 86.995)
@@ -756,7 +756,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2cca3e3a-8695-4070-aa11-c69346fbcdb6")
-		(property "Reference" "R16"
+		(property "Reference" "R30"
 			(at 176.53 97.79 90)
 			(effects
 				(font
@@ -851,6 +851,12 @@
 			(uuid "f4426e48-571e-4ad3-8f0c-280ff3cb21ab")
 		)
 		(instances
+			(project "openlst-hw"
+				(path "/a863a5ec-a5d4-4f54-be53-e8c01d5e3ac4/53f12969-e593-459a-9671-cc23a5a9aea0/f4ff56ce-2fa2-4b99-a709-c113709260c1/628ad651-1312-4f46-81d9-5410d3446e8f"
+					(reference "R30")
+					(unit 1)
+				)
+			)
 			(project "sci_board"
 				(path "/b4b2c88d-f6cd-4e60-862d-e21f68728580/840799ac-4fe6-4a8e-96a2-299affeec8e4/6b5440ce-79ea-4c41-89e9-7a3077535944"
 					(reference "R16")
@@ -875,7 +881,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d4f72701-9094-45bd-899b-922ff795b411")
-		(property "Reference" "R15"
+		(property "Reference" "R29"
 			(at 132.08 76.2 90)
 			(effects
 				(font
@@ -970,6 +976,12 @@
 			(uuid "57c5cd10-18a2-4645-bf33-9404861f0e99")
 		)
 		(instances
+			(project "openlst-hw"
+				(path "/a863a5ec-a5d4-4f54-be53-e8c01d5e3ac4/53f12969-e593-459a-9671-cc23a5a9aea0/f4ff56ce-2fa2-4b99-a709-c113709260c1/628ad651-1312-4f46-81d9-5410d3446e8f"
+					(reference "R29")
+					(unit 1)
+				)
+			)
 			(project "sci_board"
 				(path "/b4b2c88d-f6cd-4e60-862d-e21f68728580/840799ac-4fe6-4a8e-96a2-299affeec8e4/6b5440ce-79ea-4c41-89e9-7a3077535944"
 					(reference "R15")
@@ -985,7 +997,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Project:10155435-00011LF")
+		(lib_id "Common:10155435-00011LF")
 		(at 153.67 89.535 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -994,7 +1006,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d6502233-992f-4c41-bacb-0325135613d6")
-		(property "Reference" "J2"
+		(property "Reference" "J11"
 			(at 153.67 72.39 0)
 			(effects
 				(font
@@ -1010,7 +1022,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Project:AMPHENOL_10155435-00011LF"
+		(property "Footprint" "Common:AMPHENOL_10155435-00011LF"
 			(at 153.67 89.535 0)
 			(effects
 				(font
@@ -1123,6 +1135,12 @@
 			(uuid "05ff2de0-7315-45f9-a3c9-cda339406df7")
 		)
 		(instances
+			(project "openlst-hw"
+				(path "/a863a5ec-a5d4-4f54-be53-e8c01d5e3ac4/53f12969-e593-459a-9671-cc23a5a9aea0/f4ff56ce-2fa2-4b99-a709-c113709260c1/628ad651-1312-4f46-81d9-5410d3446e8f"
+					(reference "J11")
+					(unit 1)
+				)
+			)
 			(project "sci_board"
 				(path "/b4b2c88d-f6cd-4e60-862d-e21f68728580/840799ac-4fe6-4a8e-96a2-299affeec8e4/6b5440ce-79ea-4c41-89e9-7a3077535944"
 					(reference "J2")

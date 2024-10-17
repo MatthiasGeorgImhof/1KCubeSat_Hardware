@@ -704,12 +704,6 @@
 		(uuid "690b16c8-13f3-41b8-a60d-90609e359812")
 	)
 	(junction
-		(at 104.775 144.78)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7d0249a7-3419-4b81-9c39-eae30ec8c746")
-	)
-	(junction
 		(at 142.24 138.43)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1026,16 +1020,6 @@
 			(type default)
 		)
 		(uuid "16d23d51-f5af-4e3c-a801-7e20eaf07900")
-	)
-	(wire
-		(pts
-			(xy 99.06 144.78) (xy 104.775 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1a479052-c0f4-4ea2-bc9c-4635143fa40b")
 	)
 	(wire
 		(pts
@@ -2391,7 +2375,7 @@
 		(uuid "b31ab8b3-0313-43df-a09b-1278c249435a")
 	)
 	(label "ATTN"
-		(at 104.775 152.4 270)
+		(at 117.475 152.4 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3414,6 +3398,72 @@
 			(project "sci_board"
 				(path "/b4b2c88d-f6cd-4e60-862d-e21f68728580"
 					(reference "#FLG07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 99.06 144.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2eae90e2-5d1d-4cff-8a36-fcabe912dad2")
+		(property "Reference" "#PWR035"
+			(at 99.06 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3_STM32_Core"
+			(at 99.06 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 99.06 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.06 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 99.06 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2fda09a6-2157-4007-b16e-a33abd264b27")
+		)
+		(instances
+			(project "sci_board"
+				(path "/b4b2c88d-f6cd-4e60-862d-e21f68728580"
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -5533,7 +5583,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 104.775 148.59 0)
+		(at 117.475 148.59 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5541,7 +5591,7 @@
 		(dnp no)
 		(uuid "e08bcc99-9e72-4f8f-9f7a-43724813996d")
 		(property "Reference" "R4"
-			(at 102.87 158.75 0)
+			(at 115.57 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5550,7 +5600,7 @@
 			)
 		)
 		(property "Value" "330K"
-			(at 102.87 161.29 0)
+			(at 115.57 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5559,7 +5609,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
-			(at 102.997 148.59 90)
+			(at 115.697 148.59 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5568,7 +5618,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
-			(at 104.775 148.59 0)
+			(at 117.475 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5577,7 +5627,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 104.775 148.59 0)
+			(at 117.475 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5586,7 +5636,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 104.775 148.59 0)
+			(at 117.475 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5595,7 +5645,7 @@
 			)
 		)
 		(property "Note" "generic pullup/down"
-			(at 104.775 148.59 0)
+			(at 117.475 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5604,7 +5654,7 @@
 			)
 		)
 		(property "Part Number" "RC0402FR-07100KL"
-			(at 104.775 148.59 0)
+			(at 117.475 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5613,7 +5663,7 @@
 			)
 		)
 		(property "Tolerance" "1"
-			(at 104.775 148.59 0)
+			(at 117.475 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5703,7 +5753,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 104.775 144.78 0)
+		(at 117.475 144.78 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5712,7 +5762,7 @@
 		(fields_autoplaced yes)
 		(uuid "ec246e94-076f-47f7-9e72-9921a0041723")
 		(property "Reference" "#PWR027"
-			(at 104.775 148.59 0)
+			(at 117.475 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5721,7 +5771,7 @@
 			)
 		)
 		(property "Value" "+3V3_STM32_Core"
-			(at 104.775 139.7 0)
+			(at 117.475 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5729,7 +5779,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 104.775 144.78 0)
+			(at 117.475 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5738,7 +5788,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 104.775 144.78 0)
+			(at 117.475 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5747,7 +5797,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 104.775 144.78 0)
+			(at 117.475 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)

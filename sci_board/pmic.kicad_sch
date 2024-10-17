@@ -4601,6 +4601,16 @@
 		)
 		(uuid "20c97cab-634a-40c8-81c5-b87d99bfc55c")
 	)
+	(text "Cameras behind switch\nhave another 10K pullup"
+		(exclude_from_sim no)
+		(at 209.55 139.7 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "53feece9-b477-4990-9e2a-70f21dc5d8d8")
+	)
 	(text "WATCHDOG_DONE"
 		(exclude_from_sim no)
 		(at 158.75 100.33 0)

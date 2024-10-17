@@ -4537,24 +4537,6 @@
 				(hide yes)
 			)
 		)
-		(property "PARTREV" ""
-			(at 50.165 73.025 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
-			(at 50.165 73.025 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Note" "regulator, 673K"
 			(at 50.165 73.025 0)
 			(effects
@@ -4667,24 +4649,6 @@
 				(hide yes)
 			)
 		)
-		(property "PARTREV" ""
-			(at 36.195 73.025 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
-			(at 36.195 73.025 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "87e6c505-99a5-4eaf-b084-a2374912f3ba")
 		)
@@ -4766,24 +4730,6 @@
 			)
 		)
 		(property "Amps" ""
-			(at 127 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" ""
-			(at 127 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
 			(at 127 189.23 0)
 			(effects
 				(font
@@ -4913,24 +4859,6 @@
 			)
 		)
 		(property "Voltage" "40"
-			(at 146.05 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" ""
-			(at 146.05 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
 			(at 146.05 73.66 0)
 			(effects
 				(font
@@ -5082,24 +5010,6 @@
 			)
 		)
 		(property "Amps" ""
-			(at 220.98 76.835 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" ""
-			(at 220.98 76.835 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
 			(at 220.98 76.835 0)
 			(effects
 				(font
@@ -5600,24 +5510,6 @@
 				(hide yes)
 			)
 		)
-		(property "PARTREV" ""
-			(at 36.195 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
-			(at 36.195 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "884622bc-3a83-4b37-b6f9-991976ee25fc")
 		)
@@ -5969,24 +5861,6 @@
 				(hide yes)
 			)
 		)
-		(property "PARTREV" ""
-			(at 118.11 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
-			(at 118.11 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer" "generic"
 			(at 118.11 82.55 0)
 			(effects
@@ -6108,24 +5982,6 @@
 				(hide yes)
 			)
 		)
-		(property "PARTREV" ""
-			(at 36.195 121.285 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
-			(at 36.195 121.285 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "b6dfa833-4534-4ab0-bedc-9272c758642c")
 		)
@@ -6232,24 +6088,6 @@
 			)
 		)
 		(property "Voltage" "40"
-			(at 158.75 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" ""
-			(at 158.75 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
 			(at 158.75 73.66 0)
 			(effects
 				(font
@@ -6436,24 +6274,6 @@
 				(hide yes)
 			)
 		)
-		(property "PARTREV" ""
-			(at 134.62 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
-			(at 134.62 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "4e0e6f35-cf39-4257-add5-d6b602eb1a49")
 		)
@@ -6549,24 +6369,6 @@
 			)
 		)
 		(property "Part Number" "DFE252012P-1R0M=P2"
-			(at 36.195 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" ""
-			(at 36.195 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
 			(at 36.195 96.52 0)
 			(effects
 				(font
@@ -7126,24 +6928,6 @@
 				(hide yes)
 			)
 		)
-		(property "PARTREV" ""
-			(at 50.165 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
-			(at 50.165 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Note" "regulator"
 			(at 50.165 96.52 0)
 			(effects
@@ -7333,24 +7117,6 @@
 				(hide yes)
 			)
 		)
-		(property "PARTREV" ""
-			(at 130.81 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
-			(at 130.81 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "726b0461-0b6e-44a1-91cc-f321f0b9acfd")
 		)
@@ -7428,24 +7194,6 @@
 			)
 		)
 		(property "Amps" ""
-			(at 220.98 113.665 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" ""
-			(at 220.98 113.665 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
 			(at 220.98 113.665 0)
 			(effects
 				(font
@@ -7600,24 +7348,6 @@
 			)
 		)
 		(property "Tolerance" "1"
-			(at 50.165 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" ""
-			(at 50.165 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
 			(at 50.165 48.26 0)
 			(effects
 				(font
@@ -7856,24 +7586,6 @@
 				(hide yes)
 			)
 		)
-		(property "PARTREV" ""
-			(at 145.415 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
-			(at 145.415 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer" "generic"
 			(at 145.415 189.23 0)
 			(effects
@@ -8069,24 +7781,6 @@
 				(hide yes)
 			)
 		)
-		(property "PARTREV" ""
-			(at 152.4 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
-			(at 152.4 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "cafce443-edab-4823-872a-87e308a196b7")
 		)
@@ -8168,24 +7862,6 @@
 			)
 		)
 		(property "Amps" ""
-			(at 137.16 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" ""
-			(at 137.16 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
 			(at 137.16 189.23 0)
 			(effects
 				(font
@@ -8388,24 +8064,6 @@
 				(hide yes)
 			)
 		)
-		(property "PARTREV" ""
-			(at 50.165 121.285 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
-			(at 50.165 121.285 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Note" "regulator"
 			(at 50.165 121.285 0)
 			(effects
@@ -8496,24 +8154,6 @@
 			)
 		)
 		(property "Amps" ""
-			(at 155.575 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" ""
-			(at 155.575 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
 			(at 155.575 189.23 0)
 			(effects
 				(font
