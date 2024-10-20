@@ -2186,6 +2186,10 @@
       "OSC32_TCXO"
     ],
     [
+      "7eb780d8-804d-41e4-869a-e4954b511f01",
+      "sheet601A160D3"
+    ],
+    [
       "be725391-4517-4a91-8537-5b0e0ace46a2",
       "RESET_ST"
     ],
@@ -2202,6 +2206,10 @@
       "Flash1"
     ],
     [
+      "c14cb022-55e7-49d0-8a13-80019f14d5d0",
+      "sheet601A160D4"
+    ],
+    [
       "7fde3d19-3e51-4869-ba44-af6d0a67b762",
       "Power Regulator MP3416"
     ],
@@ -2214,12 +2222,24 @@
       "Power Regulator MP3417"
     ],
     [
+      "bffa887c-2d4a-4897-aa07-de3665bc885a",
+      "Aux Power Switch 3V3"
+    ],
+    [
       "3a4f04a3-bf3f-413a-bc77-fd47ed49c088",
       "DEBUG_INTERFACE"
     ],
     [
       "1e53aba3-dd28-4d46-80f1-455dd7d8f930",
       "Flash2"
+    ],
+    [
+      "35f8ffd6-553e-46df-8d79-32640f5837a5",
+      "sheet601A160D1"
+    ],
+    [
+      "18793511-b299-419d-8cc1-060793e73a43",
+      "sheet601A160D2"
     ]
   ],
   "text_variables": {}

@@ -1544,7 +1544,7 @@
 			)
 			(project ""
 				(path "/a863a5ec-a5d4-4f54-be53-e8c01d5e3ac4/53f12969-e593-459a-9671-cc23a5a9aea0/505d7be7-0770-45bf-bc6f-d3bee2934d1d"
-					(reference "R23")
+					(reference "R25")
 					(unit 1)
 				)
 				(path "/a863a5ec-a5d4-4f54-be53-e8c01d5e3ac4/53f12969-e593-459a-9671-cc23a5a9aea0/ef1ab528-9bdd-46bc-a137-513373175d48"
@@ -1554,11 +1554,11 @@
 			)
 			(project "sci_board"
 				(path "/b4b2c88d-f6cd-4e60-862d-e21f68728580/1a2691c5-5723-4a0d-b1a6-0fb5069c9e03"
-					(reference "R13")
+					(reference "R16")
 					(unit 1)
 				)
 				(path "/b4b2c88d-f6cd-4e60-862d-e21f68728580/5e856d8a-328e-413a-92b7-9cd181b0cc6b"
-					(reference "R11")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -1765,7 +1765,7 @@
 			)
 			(project ""
 				(path "/a863a5ec-a5d4-4f54-be53-e8c01d5e3ac4/53f12969-e593-459a-9671-cc23a5a9aea0/505d7be7-0770-45bf-bc6f-d3bee2934d1d"
-					(reference "R24")
+					(reference "R26")
 					(unit 1)
 				)
 				(path "/a863a5ec-a5d4-4f54-be53-e8c01d5e3ac4/53f12969-e593-459a-9671-cc23a5a9aea0/ef1ab528-9bdd-46bc-a137-513373175d48"
@@ -1775,11 +1775,11 @@
 			)
 			(project "sci_board"
 				(path "/b4b2c88d-f6cd-4e60-862d-e21f68728580/1a2691c5-5723-4a0d-b1a6-0fb5069c9e03"
-					(reference "R14")
+					(reference "R17")
 					(unit 1)
 				)
 				(path "/b4b2c88d-f6cd-4e60-862d-e21f68728580/5e856d8a-328e-413a-92b7-9cd181b0cc6b"
-					(reference "R12")
+					(reference "R15")
 					(unit 1)
 				)
 			)

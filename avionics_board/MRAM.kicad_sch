@@ -1039,8 +1039,14 @@
 				)
 			)
 			(project ""
+				(path "/a863a5ec-a5d4-4f54-be53-e8c01d5e3ac4/53f12969-e593-459a-9671-cc23a5a9aea0/96ad4f73-2856-49c5-b898-35474412a80c"
+					(reference "C70")
+					(unit 1)
+				)
+			)
+			(project ""
 				(path "/b4b2c88d-f6cd-4e60-862d-e21f68728580/f3d5c282-94c3-4259-817b-bad3ee4bc8e5"
-					(reference "C58")
+					(reference "C61")
 					(unit 1)
 				)
 			)
@@ -1211,8 +1217,14 @@
 				)
 			)
 			(project ""
+				(path "/a863a5ec-a5d4-4f54-be53-e8c01d5e3ac4/53f12969-e593-459a-9671-cc23a5a9aea0/96ad4f73-2856-49c5-b898-35474412a80c"
+					(reference "U19")
+					(unit 1)
+				)
+			)
+			(project ""
 				(path "/b4b2c88d-f6cd-4e60-862d-e21f68728580/f3d5c282-94c3-4259-817b-bad3ee4bc8e5"
-					(reference "U25")
+					(reference "U27")
 					(unit 1)
 				)
 			)
@@ -1373,8 +1385,14 @@
 				)
 			)
 			(project ""
+				(path "/a863a5ec-a5d4-4f54-be53-e8c01d5e3ac4/53f12969-e593-459a-9671-cc23a5a9aea0/96ad4f73-2856-49c5-b898-35474412a80c"
+					(reference "R52")
+					(unit 1)
+				)
+			)
+			(project ""
 				(path "/b4b2c88d-f6cd-4e60-862d-e21f68728580/f3d5c282-94c3-4259-817b-bad3ee4bc8e5"
-					(reference "R43")
+					(reference "R48")
 					(unit 1)
 				)
 			)
@@ -1535,8 +1553,14 @@
 				)
 			)
 			(project ""
+				(path "/a863a5ec-a5d4-4f54-be53-e8c01d5e3ac4/53f12969-e593-459a-9671-cc23a5a9aea0/96ad4f73-2856-49c5-b898-35474412a80c"
+					(reference "R53")
+					(unit 1)
+				)
+			)
+			(project ""
 				(path "/b4b2c88d-f6cd-4e60-862d-e21f68728580/f3d5c282-94c3-4259-817b-bad3ee4bc8e5"
-					(reference "R44")
+					(reference "R49")
 					(unit 1)
 				)
 			)
@@ -1696,9 +1720,15 @@
 					(unit 1)
 				)
 			)
+			(project "EPS"
+				(path "/a863a5ec-a5d4-4f54-be53-e8c01d5e3ac4/53f12969-e593-459a-9671-cc23a5a9aea0/96ad4f73-2856-49c5-b898-35474412a80c"
+					(reference "R51")
+					(unit 1)
+				)
+			)
 			(project "sci_board"
 				(path "/b4b2c88d-f6cd-4e60-862d-e21f68728580/f3d5c282-94c3-4259-817b-bad3ee4bc8e5"
-					(reference "R42")
+					(reference "R47")
 					(unit 1)
 				)
 			)
@@ -1838,9 +1868,15 @@
 					(unit 1)
 				)
 			)
+			(project "EPS"
+				(path "/a863a5ec-a5d4-4f54-be53-e8c01d5e3ac4/53f12969-e593-459a-9671-cc23a5a9aea0/96ad4f73-2856-49c5-b898-35474412a80c"
+					(reference "R54")
+					(unit 1)
+				)
+			)
 			(project "sci_board"
 				(path "/b4b2c88d-f6cd-4e60-862d-e21f68728580/f3d5c282-94c3-4259-817b-bad3ee4bc8e5"
-					(reference "R45")
+					(reference "R50")
 					(unit 1)
 				)
 			)

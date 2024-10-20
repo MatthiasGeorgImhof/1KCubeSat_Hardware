@@ -1198,7 +1198,7 @@
 		(at 195.58 96.52 0)
 		(effects
 			(font
-				(size 2.9972 2.9972)
+				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
@@ -1209,7 +1209,7 @@
 		(at 63.5 31.75 0)
 		(effects
 			(font
-				(size 2.9972 2.9972)
+				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
@@ -1231,7 +1231,7 @@
 		(at 195.58 33.02 0)
 		(effects
 			(font
-				(size 2.9972 2.9972)
+				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
@@ -2546,13 +2546,13 @@
 			)
 			(project "openlst-hw"
 				(path "/a863a5ec-a5d4-4f54-be53-e8c01d5e3ac4/53f12969-e593-459a-9671-cc23a5a9aea0/f4ff56ce-2fa2-4b99-a709-c113709260c1/fd271301-80dc-498a-b1ba-f12aa1e4cae2"
-					(reference "R31")
+					(reference "R45")
 					(unit 1)
 				)
 			)
 			(project "sci_board"
 				(path "/b4b2c88d-f6cd-4e60-862d-e21f68728580/840799ac-4fe6-4a8e-96a2-299affeec8e4/3a4f04a3-bf3f-413a-bc77-fd47ed49c088"
-					(reference "R53")
+					(reference "R64")
 					(unit 1)
 				)
 			)
@@ -2700,13 +2700,13 @@
 			)
 			(project "openlst-hw"
 				(path "/a863a5ec-a5d4-4f54-be53-e8c01d5e3ac4/53f12969-e593-459a-9671-cc23a5a9aea0/f4ff56ce-2fa2-4b99-a709-c113709260c1/fd271301-80dc-498a-b1ba-f12aa1e4cae2"
-					(reference "R35")
+					(reference "R49")
 					(unit 1)
 				)
 			)
 			(project "sci_board"
 				(path "/b4b2c88d-f6cd-4e60-862d-e21f68728580/840799ac-4fe6-4a8e-96a2-299affeec8e4/3a4f04a3-bf3f-413a-bc77-fd47ed49c088"
-					(reference "R57")
+					(reference "R68")
 					(unit 1)
 				)
 			)
@@ -2854,13 +2854,13 @@
 			)
 			(project "openlst-hw"
 				(path "/a863a5ec-a5d4-4f54-be53-e8c01d5e3ac4/53f12969-e593-459a-9671-cc23a5a9aea0/f4ff56ce-2fa2-4b99-a709-c113709260c1/fd271301-80dc-498a-b1ba-f12aa1e4cae2"
-					(reference "R34")
+					(reference "R48")
 					(unit 1)
 				)
 			)
 			(project "sci_board"
 				(path "/b4b2c88d-f6cd-4e60-862d-e21f68728580/840799ac-4fe6-4a8e-96a2-299affeec8e4/3a4f04a3-bf3f-413a-bc77-fd47ed49c088"
-					(reference "R56")
+					(reference "R67")
 					(unit 1)
 				)
 			)
@@ -3173,13 +3173,13 @@
 			)
 			(project "openlst-hw"
 				(path "/a863a5ec-a5d4-4f54-be53-e8c01d5e3ac4/53f12969-e593-459a-9671-cc23a5a9aea0/f4ff56ce-2fa2-4b99-a709-c113709260c1/fd271301-80dc-498a-b1ba-f12aa1e4cae2"
-					(reference "R33")
+					(reference "R47")
 					(unit 1)
 				)
 			)
 			(project "sci_board"
 				(path "/b4b2c88d-f6cd-4e60-862d-e21f68728580/840799ac-4fe6-4a8e-96a2-299affeec8e4/3a4f04a3-bf3f-413a-bc77-fd47ed49c088"
-					(reference "R55")
+					(reference "R66")
 					(unit 1)
 				)
 			)
@@ -3327,13 +3327,13 @@
 			)
 			(project "openlst-hw"
 				(path "/a863a5ec-a5d4-4f54-be53-e8c01d5e3ac4/53f12969-e593-459a-9671-cc23a5a9aea0/f4ff56ce-2fa2-4b99-a709-c113709260c1/fd271301-80dc-498a-b1ba-f12aa1e4cae2"
-					(reference "R32")
+					(reference "R46")
 					(unit 1)
 				)
 			)
 			(project "sci_board"
 				(path "/b4b2c88d-f6cd-4e60-862d-e21f68728580/840799ac-4fe6-4a8e-96a2-299affeec8e4/3a4f04a3-bf3f-413a-bc77-fd47ed49c088"
-					(reference "R54")
+					(reference "R65")
 					(unit 1)
 				)
 			)

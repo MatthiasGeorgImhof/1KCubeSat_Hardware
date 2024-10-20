@@ -991,11 +991,11 @@
 			)
 			(project "sci_board"
 				(path "/b4b2c88d-f6cd-4e60-862d-e21f68728580/5e5b27f8-7a4c-45d0-95f8-aff71797fcd3/2f5a2990-2dc0-472a-952a-1bfd830a3aba"
-					(reference "U28")
+					(reference "U32")
 					(unit 1)
 				)
 				(path "/b4b2c88d-f6cd-4e60-862d-e21f68728580/5e5b27f8-7a4c-45d0-95f8-aff71797fcd3/7fde3d19-3e51-4869-ba44-af6d0a67b762"
-					(reference "U27")
+					(reference "U31")
 					(unit 1)
 				)
 			)
@@ -1181,11 +1181,11 @@
 			)
 			(project "sci_board"
 				(path "/b4b2c88d-f6cd-4e60-862d-e21f68728580/5e5b27f8-7a4c-45d0-95f8-aff71797fcd3/2f5a2990-2dc0-472a-952a-1bfd830a3aba"
-					(reference "R52")
+					(reference "R59")
 					(unit 1)
 				)
 				(path "/b4b2c88d-f6cd-4e60-862d-e21f68728580/5e5b27f8-7a4c-45d0-95f8-aff71797fcd3/7fde3d19-3e51-4869-ba44-af6d0a67b762"
-					(reference "R50")
+					(reference "R57")
 					(unit 1)
 				)
 			)
@@ -1380,11 +1380,11 @@
 			)
 			(project "sci_board"
 				(path "/b4b2c88d-f6cd-4e60-862d-e21f68728580/5e5b27f8-7a4c-45d0-95f8-aff71797fcd3/2f5a2990-2dc0-472a-952a-1bfd830a3aba"
-					(reference "C66")
+					(reference "C72")
 					(unit 1)
 				)
 				(path "/b4b2c88d-f6cd-4e60-862d-e21f68728580/5e5b27f8-7a4c-45d0-95f8-aff71797fcd3/7fde3d19-3e51-4869-ba44-af6d0a67b762"
-					(reference "C62")
+					(reference "C68")
 					(unit 1)
 				)
 			)
@@ -1580,11 +1580,11 @@
 			)
 			(project "sci_board"
 				(path "/b4b2c88d-f6cd-4e60-862d-e21f68728580/5e5b27f8-7a4c-45d0-95f8-aff71797fcd3/2f5a2990-2dc0-472a-952a-1bfd830a3aba"
-					(reference "C64")
+					(reference "C70")
 					(unit 1)
 				)
 				(path "/b4b2c88d-f6cd-4e60-862d-e21f68728580/5e5b27f8-7a4c-45d0-95f8-aff71797fcd3/7fde3d19-3e51-4869-ba44-af6d0a67b762"
-					(reference "C60")
+					(reference "C66")
 					(unit 1)
 				)
 			)
@@ -1780,11 +1780,11 @@
 			)
 			(project "sci_board"
 				(path "/b4b2c88d-f6cd-4e60-862d-e21f68728580/5e5b27f8-7a4c-45d0-95f8-aff71797fcd3/2f5a2990-2dc0-472a-952a-1bfd830a3aba"
-					(reference "C65")
+					(reference "C71")
 					(unit 1)
 				)
 				(path "/b4b2c88d-f6cd-4e60-862d-e21f68728580/5e5b27f8-7a4c-45d0-95f8-aff71797fcd3/7fde3d19-3e51-4869-ba44-af6d0a67b762"
-					(reference "C61")
+					(reference "C67")
 					(unit 1)
 				)
 			)

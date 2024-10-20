@@ -554,9 +554,9 @@
 					(unit 1)
 				)
 			)
-			(project "openlst-hw"
-				(path "/a863a5ec-a5d4-4f54-be53-e8c01d5e3ac4/53f12969-e593-459a-9671-cc23a5a9aea0/f4ff56ce-2fa2-4b99-a709-c113709260c1/fb81d8bd-36ba-443f-b8ab-7abbc665ddd0"
-					(reference "X2")
+			(project "EPS"
+				(path "/a863a5ec-a5d4-4f54-be53-e8c01d5e3ac4/53f12969-e593-459a-9671-cc23a5a9aea0/f4ff56ce-2fa2-4b99-a709-c113709260c1/49259889-dfb0-48da-bee7-89a24c8c9a64"
+					(reference "X3")
 					(unit 1)
 				)
 			)
@@ -731,9 +731,9 @@
 					(unit 1)
 				)
 			)
-			(project "openlst-hw"
-				(path "/a863a5ec-a5d4-4f54-be53-e8c01d5e3ac4/53f12969-e593-459a-9671-cc23a5a9aea0/f4ff56ce-2fa2-4b99-a709-c113709260c1/fb81d8bd-36ba-443f-b8ab-7abbc665ddd0"
-					(reference "C68")
+			(project "EPS"
+				(path "/a863a5ec-a5d4-4f54-be53-e8c01d5e3ac4/53f12969-e593-459a-9671-cc23a5a9aea0/f4ff56ce-2fa2-4b99-a709-c113709260c1/49259889-dfb0-48da-bee7-89a24c8c9a64"
+					(reference "C71")
 					(unit 1)
 				)
 			)
