@@ -3507,6 +3507,12 @@
 					(unit 1)
 				)
 			)
+			(project ""
+				(path "/f6cc00ab-17f1-4973-862f-7ac95fe70668/6161e047-2bb5-4856-b93a-088a3805633f"
+					(reference "U17")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3614,6 +3620,12 @@
 				)
 				(path "/05170af6-30ef-4c3a-b972-f098085da1bc/87d4360e-0b9f-4926-a66e-357599f9c0d1"
 					(reference "R142")
+					(unit 1)
+				)
+			)
+			(project "EPS"
+				(path "/f6cc00ab-17f1-4973-862f-7ac95fe70668/6161e047-2bb5-4856-b93a-088a3805633f"
+					(reference "R53")
 					(unit 1)
 				)
 			)
@@ -3727,6 +3739,12 @@
 					(unit 1)
 				)
 			)
+			(project "EPS"
+				(path "/f6cc00ab-17f1-4973-862f-7ac95fe70668/6161e047-2bb5-4856-b93a-088a3805633f"
+					(reference "R52")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -3834,6 +3852,12 @@
 				)
 				(path "/05170af6-30ef-4c3a-b972-f098085da1bc/87d4360e-0b9f-4926-a66e-357599f9c0d1"
 					(reference "R143")
+					(unit 1)
+				)
+			)
+			(project "EPS"
+				(path "/f6cc00ab-17f1-4973-862f-7ac95fe70668/6161e047-2bb5-4856-b93a-088a3805633f"
+					(reference "R54")
 					(unit 1)
 				)
 			)
@@ -3947,6 +3971,12 @@
 					(unit 1)
 				)
 			)
+			(project "EPS"
+				(path "/f6cc00ab-17f1-4973-862f-7ac95fe70668/6161e047-2bb5-4856-b93a-088a3805633f"
+					(reference "R55")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4054,6 +4084,12 @@
 				)
 				(path "/05170af6-30ef-4c3a-b972-f098085da1bc/87d4360e-0b9f-4926-a66e-357599f9c0d1"
 					(reference "R138")
+					(unit 1)
+				)
+			)
+			(project "EPS"
+				(path "/f6cc00ab-17f1-4973-862f-7ac95fe70668/6161e047-2bb5-4856-b93a-088a3805633f"
+					(reference "R49")
 					(unit 1)
 				)
 			)
@@ -4167,6 +4203,12 @@
 					(unit 1)
 				)
 			)
+			(project "EPS"
+				(path "/f6cc00ab-17f1-4973-862f-7ac95fe70668/6161e047-2bb5-4856-b93a-088a3805633f"
+					(reference "R56")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4274,6 +4316,12 @@
 				)
 				(path "/05170af6-30ef-4c3a-b972-f098085da1bc/87d4360e-0b9f-4926-a66e-357599f9c0d1"
 					(reference "R140")
+					(unit 1)
+				)
+			)
+			(project "EPS"
+				(path "/f6cc00ab-17f1-4973-862f-7ac95fe70668/6161e047-2bb5-4856-b93a-088a3805633f"
+					(reference "R51")
 					(unit 1)
 				)
 			)
@@ -4396,6 +4444,12 @@
 					(unit 1)
 				)
 			)
+			(project "EPS"
+				(path "/f6cc00ab-17f1-4973-862f-7ac95fe70668/6161e047-2bb5-4856-b93a-088a3805633f"
+					(reference "C57")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -4503,6 +4557,12 @@
 				)
 				(path "/05170af6-30ef-4c3a-b972-f098085da1bc/87d4360e-0b9f-4926-a66e-357599f9c0d1"
 					(reference "R139")
+					(unit 1)
+				)
+			)
+			(project "EPS"
+				(path "/f6cc00ab-17f1-4973-862f-7ac95fe70668/6161e047-2bb5-4856-b93a-088a3805633f"
+					(reference "R50")
 					(unit 1)
 				)
 			)
@@ -4657,6 +4717,16 @@
 					(page "66")
 				)
 			)
+			(project ""
+				(path "/6161e047-2bb5-4856-b93a-088a3805633f"
+					(page "")
+				)
+			)
+			(project "AVIONICS_BOARD"
+				(path "/f6cc00ab-17f1-4973-862f-7ac95fe70668/6161e047-2bb5-4856-b93a-088a3805633f"
+					(page "44")
+				)
+			)
 		)
 	)
 	(sheet
@@ -4806,6 +4876,16 @@
 				)
 				(path "/05170af6-30ef-4c3a-b972-f098085da1bc/87d4360e-0b9f-4926-a66e-357599f9c0d1"
 					(page "62")
+				)
+			)
+			(project ""
+				(path "/6161e047-2bb5-4856-b93a-088a3805633f"
+					(page "")
+				)
+			)
+			(project "AVIONICS_BOARD"
+				(path "/f6cc00ab-17f1-4973-862f-7ac95fe70668/6161e047-2bb5-4856-b93a-088a3805633f"
+					(page "41")
 				)
 			)
 		)
@@ -4959,6 +5039,16 @@
 					(page "67")
 				)
 			)
+			(project ""
+				(path "/6161e047-2bb5-4856-b93a-088a3805633f"
+					(page "")
+				)
+			)
+			(project "AVIONICS_BOARD"
+				(path "/f6cc00ab-17f1-4973-862f-7ac95fe70668/6161e047-2bb5-4856-b93a-088a3805633f"
+					(page "43")
+				)
+			)
 		)
 	)
 	(sheet
@@ -5108,6 +5198,16 @@
 				)
 				(path "/05170af6-30ef-4c3a-b972-f098085da1bc/87d4360e-0b9f-4926-a66e-357599f9c0d1"
 					(page "63")
+				)
+			)
+			(project ""
+				(path "/6161e047-2bb5-4856-b93a-088a3805633f"
+					(page "")
+				)
+			)
+			(project "AVIONICS_BOARD"
+				(path "/f6cc00ab-17f1-4973-862f-7ac95fe70668/6161e047-2bb5-4856-b93a-088a3805633f"
+					(page "45")
 				)
 			)
 		)
@@ -5261,6 +5361,16 @@
 					(page "64")
 				)
 			)
+			(project ""
+				(path "/6161e047-2bb5-4856-b93a-088a3805633f"
+					(page "")
+				)
+			)
+			(project "AVIONICS_BOARD"
+				(path "/f6cc00ab-17f1-4973-862f-7ac95fe70668/6161e047-2bb5-4856-b93a-088a3805633f"
+					(page "42")
+				)
+			)
 		)
 	)
 	(sheet
@@ -5410,6 +5520,16 @@
 				)
 				(path "/05170af6-30ef-4c3a-b972-f098085da1bc/87d4360e-0b9f-4926-a66e-357599f9c0d1"
 					(page "65")
+				)
+			)
+			(project ""
+				(path "/6161e047-2bb5-4856-b93a-088a3805633f"
+					(page "")
+				)
+			)
+			(project "AVIONICS_BOARD"
+				(path "/f6cc00ab-17f1-4973-862f-7ac95fe70668/6161e047-2bb5-4856-b93a-088a3805633f"
+					(page "40")
 				)
 			)
 		)
@@ -5563,6 +5683,16 @@
 					(page "68")
 				)
 			)
+			(project ""
+				(path "/6161e047-2bb5-4856-b93a-088a3805633f"
+					(page "")
+				)
+			)
+			(project "AVIONICS_BOARD"
+				(path "/f6cc00ab-17f1-4973-862f-7ac95fe70668/6161e047-2bb5-4856-b93a-088a3805633f"
+					(page "39")
+				)
+			)
 		)
 	)
 	(sheet
@@ -5712,6 +5842,16 @@
 				)
 				(path "/05170af6-30ef-4c3a-b972-f098085da1bc/87d4360e-0b9f-4926-a66e-357599f9c0d1"
 					(page "69")
+				)
+			)
+			(project ""
+				(path "/6161e047-2bb5-4856-b93a-088a3805633f"
+					(page "")
+				)
+			)
+			(project "AVIONICS_BOARD"
+				(path "/f6cc00ab-17f1-4973-862f-7ac95fe70668/6161e047-2bb5-4856-b93a-088a3805633f"
+					(page "38")
 				)
 			)
 		)
